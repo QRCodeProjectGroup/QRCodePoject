@@ -1,0 +1,22 @@
+.card{
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.85);
+    color: white;
+    margin-top:50px;
+}
+.kapakDiv{
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 0 auto;
+}
+#roundedCard{
+  margin-left: 15px;
+  margin-top: 600px;
+}
+#a{
+  font-size:14px;
+}
+#res{
+  margin-top: 500px;
+  margin-left:50px;
+}

@@ -1,0 +1,53 @@
+{
+    "details":[
+        {
+            "id":1,"title":"Kahvaltı Tabağı",
+             "detail":"Kaşar Peyniri, Beyaz Peynir, Domates, Salatalık, Yeşil Biber, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ,Ekmek Çeşitleri ve 1 bardak çay",
+             "fiyat":"25₺",
+             "isActive":true
+            },
+        {
+            "id":2,"title":"Serpme Kahvaltı", 
+            "detail":"Kaşar Peyniri, Beyaz Peynir, Kızarmış Hellim Peyniri, Peynir Salatası, Domates, Salatalık, Yeşil Biber, Siyah Zeytin, Yeşil Zeytin, Reçel, Acuka, Bal kaymak, Tahin pekmez,Ekmek Çeşitleri ve Sınırsız çay",
+            "fiyat":"50₺",
+            "isActive":true
+        },
+        {
+            "id":3,"title":"Sucuklu Yumurta",
+            "detail":"Tereyağında sucuklu yumurta",
+            "fiyat":"15₺",
+            "isActive":true
+        },
+        {
+            "id":4,"title":"Kavurmalı Yumurta",
+            "detail":"Eşsiz kavurma lezzeti",
+            "fiyat":"20₺",
+            "isActive":true},
+        {
+            "id":5,"title":"Menemen",
+            "detail":"İsteğe göre soğanlı ya da soğansız menemen",
+            "fiyat":"15₺",
+            "isActive":true
+        },
+        {
+            "id":6,"title":"Muhlama",
+            "detail":"Trabzon'dan gelen peynir ve mısır unuyla muhlama",
+            "fiyat":"20₺",
+            "isActive":true
+        },
+        {
+            "id":7,"title":"Patates Kızartması",
+            "detail":"Patates Kızartması",
+            "fiyat":"10₺",
+            "isActive":true
+        },
+        {
+            "id":8,"title":"Su Böreği",
+            "detail":"Peynirli,kaşarlı ya da kıymalı",
+            "fiyat":"15₺",
+            "isActive":true
+        }
+       
+       
+    ]
+}

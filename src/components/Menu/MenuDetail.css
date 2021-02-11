@@ -1,0 +1,16 @@
+#ph{
+   
+        width:1500px;
+        position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: -1;
+       filter: brightness(0.4);
+       
+       
+     
+}
+#h{
+    margin-top:500px;
+    text-align: center;
+}

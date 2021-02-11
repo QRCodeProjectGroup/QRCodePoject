@@ -1,0 +1,31 @@
+#about{
+   
+position: absolute;
+left: 30%;
+top: 0px;
+z-index: 0;
+
+}
+#aboutRow{
+    background-color: white;
+}
+#back{
+    width:1530px;
+    position: absolute;
+left:0px;
+top: 0px;
+z-index: -1;
+
+}
+#us{
+    margin-top: 450px;
+    margin-left: 50px;
+}
+#paragraf{
+    margin-top:50px;
+    margin-left: 50px;
+     
+}
+#align{
+    margin-left: 50px;
+}
