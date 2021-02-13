@@ -23,5 +23,10 @@ nav a{
   transform: translate(-50%, -50%);
 }
 
-
-
+.navbar-brand{
+  font-size: 36px;
+ color:#cd853f;
+}
+.navbar-brand:hover{
+  color: #cd853f;
+}
