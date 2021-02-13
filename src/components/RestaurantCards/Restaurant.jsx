@@ -10,6 +10,7 @@ import AOS from 'aos';
 
 function Restaurant(props){
   AOS.init();
+  AOS.refresh();
     return(
 <div className="row">
     <div className="col-sm-6">

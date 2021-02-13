@@ -9,6 +9,7 @@ import AOS from 'aos';
 
 function MenuDetailCard(props){
 AOS.init();
+AOS.refresh();
 
 const cardItems = menu.data.map((item,index) =>
         item.cesitler.map((item2,index) =>(

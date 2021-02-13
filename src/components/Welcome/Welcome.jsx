@@ -7,6 +7,8 @@ import AOS from 'aos';
 
 function Welcome(props){
     AOS.init();
+    AOS.refresh();
+    
     return(
        
 <div className="row" id="gradient" >

@@ -7,6 +7,7 @@ import AOS from 'aos';
 
 function MenuCard(props){
 AOS.init();
+AOS.refresh();
   
     return(
       <>
