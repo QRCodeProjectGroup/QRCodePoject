@@ -1,0 +1,427 @@
+{
+    "data":[
+        
+        {
+            "ogunIsmi":"Kahvaltı",
+            "uniqKey":1,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Kahvaltı Tabağı",
+                    "detail":"Kaşar Peyniri, Beyaz Peynir, Domates, Salatalık, Yeşil Biber, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ,Ekmek Çeşitleri ve 1 bardak çay",
+                    "fiyat":"25₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Serpme Kahvaltı", 
+                    "detail":"Kaşar Peyniri, Beyaz Peynir, Kızarmış Hellim Peyniri, Peynir Salatası, Domates, Salatalık, Yeşil Biber, Siyah Zeytin, Yeşil Zeytin, Reçel, Acuka, Bal kaymak, Tahin pekmez,Ekmek Çeşitleri ve Sınırsız çay",
+                    "fiyat":"50₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Sucuklu Yumurta",
+                    "detail":"Tereyağında sucuklu yumurta",
+                    "fiyat":"15₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Kavurmalı Yumurta",
+                    "detail":"Eşsiz kavurma lezzeti",
+                    "fiyat":"20₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Menemen",
+                    "detail":"İsteğe göre soğanlı ya da soğansız menemen",
+                    "fiyat":"15₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":"Muhlama",
+                    "detail":"Trabzon'dan gelen peynir ve mısır unuyla muhlama",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":7,"title":"Patates Kızartması",
+                    "detail":"Patates Kızartması",
+                    "fiyat":"10₺",
+                    "isActive":true
+                },
+                {
+                    "id":8,"title":"Su Böreği",
+                    "detail":"Peynirli,kaşarlı ya da kıymalı",
+                    "fiyat":"15₺",
+                    "isActive":true
+                }
+                
+            ]
+        },
+        {
+            "ogunIsmi":"Burger",
+            "uniqKey":2,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Hamburger",
+                    "detail":"Klasik… 150 gr burger, kokteyl sos, karamelize soğan, domates, yeşillik, turşu",
+                    "fiyat":"35₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Cheeseburger", 
+                    "detail":"Klasik 150 gr burger, cheddar peyniri, kokteyl sos, karamelize soğan, domates, yeşillik, turşu; patates kızartması ile",
+                    "fiyat":"30₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Steak & Cheese Sandviç",
+                    "detail":"150 gr dana kontrfile, özel sandviç ekmeğinde, üzerinde cheddar eritmesi, karamelize soğan, mayonez; patates kızartması ile",
+                    "fiyat":"40₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Special Burger",
+                    "detail":"150 gr köfte üzerine emmenthal peyniri, dana jambon, sotelenmiş mantar, domates; patates kızartması ile",
+                    "fiyat":"45₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Tavuklu Sandviç",
+                    "detail":"Dana Jambon, tavuk, yumurta, kornişon turşu, yeşillik ve domates; patates kızartması ile",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":"Tavuk Burrito",
+                    "detail":"Tortilla ekmeğine sarılı tavuk, karamelize soğan, kırmızı biber, rende kaşar peyniri, krema; patates kızartması ve yeşillik ile",
+                    "fiyat":"25₺",
+                    "isActive":true
+                }
+                
+                
+            ]
+        },
+        {
+            "ogunIsmi":"Makarna",
+            "uniqKey":3,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Beef Fettuccine",
+                    "detail":"Biftek ve mantar, kremalı sos ile",
+                    "fiyat":"25₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Porcini Mantarlı Tagliatelle", 
+                    "detail":"Krema sos ile",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Spagetti, Seafood",
+                    "detail":"karides, kalamar, ahtapot, özel sos ile",
+                    "fiyat":"35₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Spagetti, Meatball",
+                    "detail":"mini köfteler, İtalyan sos ile",
+                    "fiyat":"30₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Spagetti, Bolonez",
+                    "detail":"kıymalı bolonez sos, parmesan ile",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":"Spagetti, Napolitan",
+                    "detail":"domates sos ve parmesan ile",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":7,"title":"Penne (Kepekli ya da Normal) Al Funghi",
+                    "detail":"mantar, fesleğen, parmesan, krema sos ile",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":8,"title":"Penne (Kepekli ya da Normal) Arrabiata",
+                    "detail":"acılı domates sos ve parmesan ile",
+                    "fiyat":"25₺",
+                    "isActive":true
+                }
+                
+            ]
+        },
+        {
+            "ogunIsmi":"Steak",
+            "uniqKey":4,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Mangal Keyfi",
+                    "detail":"Kuzu pirzola, 110gr kontrfile, 2 kaşarlı köfte, sucuk, sosis; domates, biber, pilav ve patates kızartması ile",
+                    "fiyat":"50₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Lokum", 
+                    "detail":"250 gr dinlendirilmiş lokum bonfile; Jenga patatesler, akdeniz yeşilliği ve haşlanmış sebze ile",
+                    "fiyat":"60₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"İri Dana Pirzola",
+                    "detail":"Et ziyafeti! 400 gr iri dana pirzola; baby patatesler ve karamelize soya sosla pişmiş arpacık soğan",
+                    "fiyat":"70₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Izgara Dana Bonfile",
+                    "detail":"180 gr dana bonfile; baharatlı patates kızartması ve mantar ile",
+                    "fiyat":"50₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Biftek Ziyafeti",
+                    "detail":"3 parça ızgara biftek; patates ve kavrulmuş soğan ile",
+                    "fiyat":"50₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":"Tahtada Kaşarlı Köfte",
+                    "detail":"Pilav, domates ve patates kızartması ile",
+                    "fiyat":"45₺",
+                    "isActive":true
+                }
+               
+            ]
+        },
+        {
+            "ogunIsmi":"Çorbalar",
+            "uniqKey":5,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Mercimek Çorbası",
+                    "detail":"Ekmek ve limon ile",
+                    "fiyat":"10₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Kıymalı Yeşil Mercimek Çorbası", 
+                    "detail":"Ekmek ve limon ile",
+                    "fiyat":"15₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Ezogelin Çorbası",
+                    "detail":"Ekmek ve limon ile",
+                    "fiyat":"10₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Domates Çorbası",
+                    "detail":"Kaşar peyniri ve ekmek ile",
+                    "fiyat":"10₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Kremalı Mantar Çorbası",
+                    "detail":"Ekmek ile",
+                    "fiyat":"15₺",
+                    "isActive":true
+                }
+                
+            ]
+        },
+        {
+            "ogunIsmi":"Salatalar",
+            "uniqKey":6,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Hardal Soslu Biftek Salata",
+                    "detail":"Julien doğranmış sıcak dana kontrfile, göbek salata; haşlanmış patates, soya filizi; ballı hardal sos ile",
+                    "fiyat":"25₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Ton Balıklı Salata", 
+                    "detail":"Göbek salata, ton balığı, mısır; zeytin yağı ve limon sos ile...",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Izgara Somon Salata",
+                    "detail":"Akdeniz yeşillikleri, roka, kırmızı soğan, kapari, 180gr ızgara somon balığı; zeytinyağı ve limon sos ile...",
+                    "fiyat":"35₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Kinoa ve Narlı Salata",
+                    "detail":"Göbek ve karışık Akdeniz yeşillikleri, dereotu, ceviz ve nane ile",
+                    "fiyat":"20₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Keçi Peynirli Salata",
+                    "detail":"Göbek salata, Akdeniz yeşillikleri, özel ekmek üzerinde eritilmiş keçi peyniri, kuru domates, kuş üzümü, ceviz; balsamik sos ile",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":"Pane Tulum Salata",
+                    "detail":"Akdeniz yeşillikleri, roka, ceviz, çeri domates, kurutulmuş domates, pane tulum peyniri; vinaigrette sos ile",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":7,"title":"Hellim Peynirli Salata",
+                    "detail":"Göbek salata, Akdeniz yeşillikleri, hellim peyniri ızgara, kiraz domates, mısır taneleri; vinigrette sos ile",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":8,"title":"Ege Salatası",
+                    "detail":"Göbek salata, salatalık, domates, soğan, beyaz peynir, kekik, zeytin; zeytinyağı sos ile",
+                    "fiyat":"15₺",
+                    "isActive":true
+                }
+                
+            ]
+        },
+        {
+            "ogunIsmi":"Tatlılar",
+            "uniqKey":7,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Çikolatalı Sufle",
+                    "detail":"Fırında içinde akan çikolata ile pişmiş üstü pudra şekerli suflen dondurma ile",
+                    "fiyat":"15₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Çikolatalı ve Muzlu Krep", 
+                    "detail":"Bir Fransız klasiği",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Havuçlu Çikolatalı Pasta",
+                    "detail":"Kesinlikle denenmeli!",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Profiterol",
+                    "detail":"Bol çikolata sosu ile",
+                    "fiyat":"20₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Brownie",
+                    "detail":"Sıcak brownie üzerine çikolata sos ve vanilyalı dondurma",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":" Cheese Cake",
+                    "detail":"Çikolatalı, frambuazlı veya limonlu",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":7,"title":"Dondurma Kup",
+                    "detail":"Arzu ettiğiniz 3 top dondurma üzerine çikolata veya karamel sos",
+                    "fiyat":"15₺",
+                    "isActive":true
+                }
+                
+            ]
+        },
+        {
+            "ogunIsmi":"İçecekler",
+            "uniqKey":8,
+            "cesitler":[
+                {
+                    "id":1,
+                    "title":"Filtre Kahve",
+                    "detail":"",
+                    "fiyat":"15₺",
+                    "isActive":true,
+                    "comments":{
+                        "anonim":["Harika Ötesi!","süper!","noiceee","denemeye değer."]
+                    }
+                },
+                {
+                    "id":2,"title":"Hazır Kahve (Nescafe)", 
+                    "detail":"",
+                    "fiyat":"10₺",
+                    "isActive":true
+                },
+                {
+                    "id":3,"title":"Espresso",
+                    "detail":"",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":4,"title":"Türk Kahvesi",
+                    "detail":"",
+                    "fiyat":"10₺",
+                    "isActive":true},
+                {
+                    "id":5,"title":"Cafe Mocha",
+                    "detail":"",
+                    "fiyat":"20₺",
+                    "isActive":true
+                },
+                {
+                    "id":6,"title":"Sıcak Çikolata",
+                    "detail":"",
+                    "fiyat":"15₺",
+                    "isActive":true
+                },
+                {
+                    "id":7,"title":"Cafe Latte",
+                    "detail":"",
+                    "fiyat":"25₺",
+                    "isActive":true
+                },
+                {
+                    "id":8,"title":"Çay Bardak",
+                    "detail":"",
+                    "fiyat":"8₺",
+                    "isActive":true
+                },{
+                    "id":8,"title":"Bitki çayı",
+                    "detail":"",
+                    "fiyat":"15₺",
+                    "isActive":true
+                }
+                
+            ]
+        }
+    ]
+}

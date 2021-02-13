@@ -1,17 +1,29 @@
-#patatoes{
-    width:300px;
-    height:280px;
+#mail{
+    width:1500px;
+   position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  filter: brightness(0.4);
 }
-#arkaplanR{
-    width:340px;
-    height:420px;
+#iletisim{
+    color:gray;
+    margin-top:350px;
+    margin-left: 600px;
+}
+#ulColor{
+    color:black;
+}
+#contactCard{
+    margin-top:200px;
+   
 }
 .overlay {
     position: absolute;
     bottom: 100%;
     left: 0;
     right: 0;
-    background-image: url("siparist.jpg");
+    background-image: url("../../images/dilos.jpeg");
     background-color: #4CAF50;
     overflow: hidden;
     width: 100%;
@@ -19,7 +31,7 @@
     transition: .5s ease;
   }
   
-  #cardHover:hover .overlay {
+  #contactCard:hover .overlay {
     bottom: 0;
     height: 100%;
   }
@@ -35,7 +47,3 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
- #siparisButon{
-   background-color:#4CAF50 ;
-   border-color: #4CAF50;
- }

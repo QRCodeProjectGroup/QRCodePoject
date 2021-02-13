@@ -53,3 +53,16 @@
   background: rgba(0, 0, 0, 0.85);
     color: white;
 }
+#kahvaltiSofrasi{
+  margin-top:50px;
+  background-image: url("../../images/kahvaltisofrasi.jpg") ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:1500px;
+  height:400px;
+}
+#h{
+  margin-top: 30px;
+}

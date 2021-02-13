@@ -1,9 +1,10 @@
 import React from 'react';
 import Welcome from '../Welcome/Welcome'
 import Restaurant from '../RestaurantCards/Restaurant'
-import Preferred from '../Preferred/Preferred'
 import Menu from '../Menu/Menu'
-import MenuDetail from '../Menu/MenuDetail'
+import MenuDetailCard from '../Menu/MenuDetailCard'
+import './Home.css'
+
 
 function Home(props){
     return(
@@ -11,9 +12,22 @@ function Home(props){
         <>
          <Welcome/>
          <Restaurant/>
-        
+       
          <Menu/>
-        <MenuDetail/>
+        
+        <div class="container-fluid bg-light text-dark">
+  
+  <section id="KAHVALTI">
+ <MenuDetailCard/>
+  </section>
+  
+  <section id="BURGER">
+  <MenuDetailCard/>
+  </section>
+  <section id="MAKARNA">
+  <MenuDetailCard/>
+  </section>
+</div>
         </>
     )
 }

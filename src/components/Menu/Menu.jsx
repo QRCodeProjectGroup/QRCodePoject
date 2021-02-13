@@ -5,7 +5,7 @@ import MenuCard from './MenuCard';
 
 
 function Menu(props){
-  const songItems = data.foods.filter(
+  const foodItems = data.foods.filter(
     item => item.isActive).map(
     (item) =>(
        
@@ -15,11 +15,12 @@ function Menu(props){
             title={item.title}
             detail={item.detail}
             fiyat={item.fiyat}
-          
+            
             />
         </div>
     )
 )
+
     return(
       <>
               <div className="row">
@@ -31,7 +32,7 @@ function Menu(props){
       </center>
       <hr color="gray"/>
       <div className="row">
-                  {songItems}
+                  {foodItems}
                   </div>
                   </div>
                   </div>
