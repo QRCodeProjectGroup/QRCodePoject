@@ -3,7 +3,8 @@ nav a{
     color:#cd853f;
     font-weight:bold;
      text-decoration:none !important;
-     font-size:18px;
+     font-size:24px;
+     font-family: 'Truculenta', sans-serif;
 }
 .navbar-nav a:hover {
 

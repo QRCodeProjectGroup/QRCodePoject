@@ -22,7 +22,7 @@ const cardItems = menu.data.map((item,index) =>
 </div>
             </div>
             <div className="col-sm-9 mt-5" >
-<h5 data-aos="fade-left" data-aos-duration="900">{item2.title} 
+<h5 id="titleStyle" data-aos="fade-left" data-aos-duration="900">{item2.title} 
 <p data-aos="fade-left" data-aos-duration="900" id="textAlign">{item2.fiyat}</p></h5>
 <hr/>
 <p data-aos="fade-left" data-aos-duration="900">{item2.detail}</p>

@@ -13,10 +13,12 @@
   margin-left: 20px;
   margin-top: 600px;
 }
-#a{
-  font-size:14px;
-}
+
 #res{
   margin-top: 500px;
   margin-left:50px;
+}
+h5,p,a{
+  font-family: 'Truculenta', sans-serif;
+  font-size: 20px;
 }
