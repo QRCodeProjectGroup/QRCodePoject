@@ -5,24 +5,29 @@ import like from '../../images/like.png'
 import star from '../../images/star.png'
 import ok from '../../images/ok.png'
 import './Restaurant.css'
+import 'aos/dist/aos.css'; 
+import AOS from 'aos';
 
 function Restaurant(props){
+  AOS.init();
     return(
 <div className="row">
     <div className="col-sm-6">
-    <div class="card bg-dark text-white" id="res">
-  <img src={image} class="card-img" alt="..."/>
-  <div class="card-img-overlay">
+    <div className="card bg-dark text-white" id="res" data-aos="fade-right"
+     data-aos-duration="800">
+  <img src={image} className="card-img" alt="..."/>
+  <div className="card-img-overlay">
     <div className="kapakDiv">
-    <h5 class="card-title">CEM MIDIK RESTORAN</h5>
-    <p class="card-text">Beyazevler Mah. Esentepe Sk.  Gazievler Cd.<br/> No:25 Adana/TURKIYE <br/> www.mıdıkcem.com</p>
+    <h5 className="card-title">CEM MIDIK RESTORAN</h5>
+    <p className="card-text">Beyazevler Mah. Esentepe Sk.  Gazievler Cd.<br/> No:25 Adana/TURKIYE <br/> www.mıdıkcem.com</p>
     </div>
   </div>
 </div>
     </div>
     <div className="col-sm-6">
         <div className="row">
-    <div className="card rounded-3" id="roundedCard">
+    <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
+     data-aos-duration="900">
       <div className="card-body">
           <img src={users}></img>
         <h5 className="card-title" id="a">2 Haftadaki Ziyaret:</h5>
@@ -30,7 +35,8 @@ function Restaurant(props){
        
       </div>
       </div>
-      <div className="card rounded-3" id="roundedCard">
+      <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
+     data-aos-duration="900">
       <div className="card-body">
       <img src={like}></img>
         <h5 className="card-title" id="a">Toplam Beğeni:</h5>
@@ -38,7 +44,8 @@ function Restaurant(props){
        
       </div>
       </div>
-      <div className="card rounded-3" id="roundedCard">
+      <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
+     data-aos-duration="900">
       <div className="card-body">
       <img src={star}></img>
         <h5 className="card-title" id="a">Restoran Puanı:</h5>
@@ -46,11 +53,12 @@ function Restaurant(props){
        
       </div>
       </div>
-      <div class="card rounded-3" id="roundedCard">
-      <div class="card-body">
+      <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
+     data-aos-duration="900">
+      <div className="card-body">
       <img src={ok}></img>
-        <h5 class="card-title" id="a">Ort sipariş hızı</h5>
-        <p class="card-text" id="a">20 dk.</p>
+        <h5 className="card-title" id="a">Ort sipariş hızı</h5>
+        <p className="card-text" id="a">20 dk.</p>
         
       </div>
     </div>

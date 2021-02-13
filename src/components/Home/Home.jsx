@@ -3,10 +3,12 @@ import Welcome from '../Welcome/Welcome'
 import Restaurant from '../RestaurantCards/Restaurant'
 import Menu from '../Menu/Menu'
 import MenuDetailCard from '../Menu/MenuDetailCard'
+import Footer from '../Footer/Footer'
 import './Home.css'
 
 
 function Home(props){
+    
     return(
 
         <>
@@ -28,6 +30,7 @@ function Home(props){
   <MenuDetailCard/>
   </section>
 </div>
+
         </>
     )
 }

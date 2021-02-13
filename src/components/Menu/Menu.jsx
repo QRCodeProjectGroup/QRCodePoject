@@ -2,9 +2,11 @@ import React from 'react';
 import './Menu.css';
 import data from '../../data/data.json';
 import MenuCard from './MenuCard';
-
+import 'aos/dist/aos.css'; 
+import AOS from 'aos';
 
 function Menu(props){
+  AOS.init();
   const foodItems = data.foods.filter(
     item => item.isActive).map(
     (item) =>(
@@ -25,7 +27,7 @@ function Menu(props){
       <>
               <div className="row">
                 <div className="col">
-              <div class="card" id="cardAlign">
+              <div class="card" id="cardAlign" data-aos="zoom-out-down" data-aos-duration="900">
   <div class="card-body">
       <center>
       <h1>MENÜ</h1>
