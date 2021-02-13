@@ -12,7 +12,7 @@ nav a{
   
 }
 #navbarColor{
-  z-index: 0;
+  z-index: 1;
 }
 #topnav-centered {
   float: none;
