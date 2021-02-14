@@ -2,12 +2,8 @@ import React from 'react';
 import './Menu.css';
 import data from '../../data/data.json';
 import MenuCard from './MenuCard';
-import 'aos/dist/aos.css'; 
-import AOS from 'aos';
 
 function Menu(props){
-  AOS.init();
-  AOS.refresh();
   
   const foodItems = data.foods.filter(
     item => item.isActive).map(

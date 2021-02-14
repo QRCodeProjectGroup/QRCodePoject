@@ -3,13 +3,8 @@ import detail from '../../data/detail.json';
 import detailPhotos from '../../data/detailfoto.js';
 import './Menu.css';
 import menu from '../../data/menus.json'
-import 'aos/dist/aos.css'; 
-import AOS from 'aos';
-
 
 function MenuDetailCard(props){
-AOS.init();
-AOS.refresh();
 
 const cardItems = menu.data.map((item,index) =>
         item.cesitler.map((item2,index) =>(

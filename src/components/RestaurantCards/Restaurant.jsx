@@ -5,12 +5,9 @@ import like from '../../images/like.png'
 import star from '../../images/star.png'
 import ok from '../../images/ok.png'
 import './Restaurant.css'
-import 'aos/dist/aos.css'; 
-import AOS from 'aos';
 
 function Restaurant(props){
-  AOS.init();
-  AOS.refresh();
+ 
     return(
 <div className="row">
     <div className="col-sm-6">

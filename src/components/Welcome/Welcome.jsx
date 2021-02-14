@@ -1,14 +1,9 @@
 import React from 'react';
 import './Welcome.css';
 import arkaplan from '../../images/arkaplann.jpg'
-import 'aos/dist/aos.css'; 
-import AOS from 'aos';
-
 
 function Welcome(props){
-    AOS.init();
-    AOS.refresh();
-    
+   
     return(
        
 <div className="row" id="gradient" >
