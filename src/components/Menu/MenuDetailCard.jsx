@@ -1,51 +1,42 @@
-import React from 'react';
-import detail from '../../data/detail.json';
+import React, { useContext } from 'react';
 import detailPhotos from '../../data/detailfoto.js';
 import './Menu.css';
 import menu from '../../data/menus.json'
+import MenuDetail from './MenuDetail';
 
-function MenuDetailCard(props){
+function MenuDetailCard(props) {
+    const { title } = props;
+    const { data } = menu
+    let cardItems
+    data.filter(item => item.ogunIsmi.toLocaleLowerCase() === title)
+        .map(item => {
+            cardItems = item.cesitler.map((detail, index) => {
+                return (
+                    <>
+                        <div className="col-sm-3" key={detail.id} >
+                            <div class="card mt-5" id="cardColor">
+                                <img src={detailPhotos[`${detail.id}`]} class="card-img-top" alt="..." />
 
-const cardItems = menu.data.map((item,index) =>
-        item.cesitler.map((item2,index) =>(
-           <>
-          
-            <div className="col-sm-3" key={item2.id} >
-               <div class="card mt-5" id="cardColor" data-aos="fade-right" data-aos-duration="900">
-  <img src={detailPhotos[`${item2.id}`]} class="card-img-top" alt="..."/>
- 
-</div>
+                            </div>
+                        </div>
+                        <div className="col-sm-9 mt-5" >
+                            <h5>{detail.title} <p id="textAlign">{detail.fiyat}</p></h5>
+                            <hr />
+                            <p>{detail.detail}</p>
+
+                        </div>
+                    </>
+                )
+            })
+        })
+    return (
+        <>
+            <div className="row">
+                <h2 id="h">{title} Menüsü</h2>
+
             </div>
-            <div className="col-sm-9 mt-5" >
-<h5 id="titleStyle" data-aos="fade-left" data-aos-duration="900">{item2.title} 
-<p data-aos="fade-left" data-aos-duration="900" id="textAlign">{item2.fiyat}</p></h5>
-<hr/>
-<p data-aos="fade-left" data-aos-duration="900">{item2.detail}</p>
-
-            </div>
-            </>
-        )
-        )
-    )
-
-    return(
-<>
-<div className="row">
-    <h2 id="h">Kahvaltı Menüsü</h2>
-  
-    </div>
-<div className="row" id="kahvaltiSofrasi">
-
-</div>
-
-<div className="container">
-    <div className="row">
-        
-    {cardItems}
-    
-</div>
-</div>
-</>
+            <MenuDetail cardItems={cardItems} />
+        </>
     )
 }
 export default MenuDetailCard

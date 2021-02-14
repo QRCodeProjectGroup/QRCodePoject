@@ -7,30 +7,21 @@ import Footer from '../Footer/Footer'
 import './Home.css'
 
 
-function Home(props){
-    
-    return(
+function Home(props) {
+    const params = props.location.hash.slice(1)
+    return (
 
         <>
-         <Welcome/>
-         <Restaurant/>
-       
-         <Menu/>
-        
-        <div class="container-fluid bg-light text-dark">
-  
-  <section id="KAHVALTI">
- <MenuDetailCard/>
-  </section>
-  
-  <section id="BURGER">
-  <MenuDetailCard/>
-  </section>
-  <section id="MAKARNA">
-  <MenuDetailCard/>
-  </section>
-</div>
+            <Welcome />
+            <Restaurant />
+            <Menu />
 
+            <div class="container-fluid bg-light text-dark">
+
+                <section id={params.toLowerCase()}>
+                    <MenuDetailCard title={params.toLowerCase()}/>
+                </section>
+            </div>
         </>
     )
 }
