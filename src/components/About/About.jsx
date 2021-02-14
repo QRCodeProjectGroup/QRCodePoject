@@ -16,20 +16,20 @@ function About(props){
         </div>
         <div className="row">
             <div className="col">
-            <h1 id="us" data-aos="flip-left" data-aos-duration="800">Biz Kimiz?Ne Yapıyoruz?</h1>
+            <h1 id="us">Biz Kimiz?Ne Yapıyoruz?</h1>
             </div>
         </div>
         <div className="row">
             <div className="col">
-                <p id="paragraf" data-aos="flip-right" data-aos-duration="800">Bu site Kodluyoruz Adana Full Stack Development Bootcamp bitirme projesidir.
+                <p id="paragraf" >Bu site Kodluyoruz Adana Full Stack Development Bootcamp bitirme projesidir.
                     <br/>Şuanda içinde bulunduğumuz pandemi sürecinde restoranların kullanabileceği bir OR kod dijital menü
                     oluşturmak ve teması azaltmayı amaçlıyoruz.<br/>
                     Projemiz 2 ana kısımdan oluşmaktadır:<br/>1)NodeJS ile api oluşturmak.<br/>
                     2)React kütüphanesi ile önyüz oluşturmak.
                     
                 </p>
-                <h4 id="align" data-aos="flip-left" data-aos-duration="800">NodeJs'de neler yaptık?</h4>
-                <p id="align" data-aos="flip-right" data-aos-duration="800">+MongoDB'ye kayıt olup amazonun bulut sunucusunda database'mizi oluşturduk.
+                <h4 id="align" >NodeJs'de neler yaptık?</h4>
+                <p id="align">+MongoDB'ye kayıt olup amazonun bulut sunucusunda database'mizi oluşturduk.
                     <br/>+Express ile uygulamamızı oluşturduk ne mongoose ile bulut sunucudaki veritabanımıza bağlandık.
                     <br/>+Restoranlar için User modeli oluşturduk,kullanıcı şifrelerini bcrypt kütüphanesi ile veritabanımıza
                     şifreledik.Bu sayede Json Web Token ile rahatça oturum kontrolü sağlayabildik.<br/> 
@@ -38,8 +38,8 @@ function About(props){
                     Son olarak yayına hazır olmadan önce oluşturduğumuz yapılara Unit test yazdık.Yayına alırken heroku ile 
                     travisCI kullanıp sürekli entegrasyon işlemleri yaptık.
                 </p>
-                <h4 id="align" data-aos="flip-left" data-aos-duration="800">React kısmında neler yaptık?</h4>
-                <p id="align" data-aos="flip-right" data-aos-duration="800">+Bootstrap,Html ve CSS kullanarak tasarımın iskeletini çıkardık.<br/>
+                <h4 id="align">React kısmında neler yaptık?</h4>
+                <p id="align" >+Bootstrap,Html ve CSS kullanarak tasarımın iskeletini çıkardık.<br/>
                 +Componentlerimizi parçalayarak modüler bir sistem halinde,tüm componentlerimizi oluşturduk.<br/>
                 +React-router-dom kullanarak navbarımızı işlevsel hale getirdik.<br/>
                 +Bootstrap card kullanarak menümüzü oluşturduk.<br/>

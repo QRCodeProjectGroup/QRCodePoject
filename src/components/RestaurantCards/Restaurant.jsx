@@ -16,8 +16,7 @@ function Restaurant(props) {
           return (
             <div className="row" key={index}>
               <div className="col-sm-6">
-                <div className="card bg-dark text-white" id="res" data-aos="fade-right"
-                  data-aos-duration="800">
+                <div className="card bg-dark text-white" id="res" >
                   <img src={image} className="card-img" alt="..." />
                   <div className="card-img-overlay">
                     <div className="kapakDiv">
@@ -29,8 +28,7 @@ function Restaurant(props) {
               </div>
               <div className="col-sm-6">
                 <div className="row">
-                  <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
-                    data-aos-duration="900">
+                  <div className="card rounded-3" id="roundedCard" >
                     <div className="card-body">
                       <img src={users}></img>
                       <h5 className="card-title" id="a">2 Haftadaki Ziyaret:</h5>
@@ -38,8 +36,7 @@ function Restaurant(props) {
 
                     </div>
                   </div>
-                  <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
-                    data-aos-duration="900">
+                  <div className="card rounded-3" id="roundedCard" >
                     <div className="card-body">
                       <img src={like}></img>
                       <h5 className="card-title" id="a">Toplam Beğeni:</h5>
@@ -47,8 +44,7 @@ function Restaurant(props) {
 
                     </div>
                   </div>
-                  <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
-                    data-aos-duration="900">
+                  <div className="card rounded-3" id="roundedCard" >
                     <div className="card-body">
                       <img src={star}></img>
                       <h5 className="card-title" id="a">Restoran Puanı:</h5>
@@ -56,8 +52,7 @@ function Restaurant(props) {
 
                     </div>
                   </div>
-                  <div className="card rounded-3" id="roundedCard" data-aos="flip-right"
-                    data-aos-duration="900">
+                  <div className="card rounded-3" id="roundedCard" >
                     <div className="card-body">
                       <img src={ok}></img>
                       <h5 className="card-title" id="a">Ort sipariş hızı</h5>

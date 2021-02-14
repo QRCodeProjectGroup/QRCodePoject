@@ -25,7 +25,7 @@ function Menu(props) {
     <>
       <div className="row">
         <div className="col">
-          <div class="card" id="cardAlign" data-aos="zoom-out-down" data-aos-duration="900">
+          <div class="card" id="cardAlign">
             <div class="card-body">
               <center>
                 <h1>MENÜ</h1>
