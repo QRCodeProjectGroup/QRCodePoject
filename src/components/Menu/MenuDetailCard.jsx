@@ -1,36 +1,35 @@
 import React, { useContext } from 'react';
-import { globalContext } from '../../data/context';
 import detailPhotos from '../../data/detailfoto.js';
 import './Menu.css';
+import menu from '../../data/menus.json'
 import MenuDetail from './MenuDetail';
 
 function MenuDetailCard(props) {
     const { title } = props;
-    const { details } = useContext(globalContext)
+    const { data } = menu
+    let cardItems
+    data.filter(item => item.ogunIsmi.toLocaleLowerCase() === title)
+        .map(item => {
+            cardItems = item.cesitler.map((detail, index) => {
+                return (
+                    <>
+                        <div className="col-sm-3" key={detail.id} >
+                            <div class="card mt-5" id="cardColor" data-aos="fade-right" data-aos-duration="800">
+                                <img src={detailPhotos[`${detail.id}`]} class="card-img-top" alt="..." />
 
-    let cardItems;
-
-    details && details.filter(item => item.menuName.toLowerCase() === title).map(item => {
-        cardItems = item.detail && item.detail.map((value, index) => {
-            return (
-                <>
-                    <div className="col-sm-3" key={index} >
-                        <div class="card mt-5" id="cardColor">
-                            <img src={detailPhotos[`${index}`]} class="card-img-top" alt="..." />
+                            </div>
+                        </div>
+                        <div className="col-sm-9 mt-5" >
+                            <h5 data-aos="fade-left" data-aos-duration="800">{detail.title} 
+                             <p id="textAlign" data-aos="fade-left" data-aos-duration="800">{detail.fiyat}</p></h5>
+                            <hr />
+                            <p data-aos="fade-left" data-aos-duration="800">{detail.detail}</p>
 
                         </div>
-                    </div>
-                    <div className="col-sm-9 mt-5" >
-                        <h5>{value.product} <p id="textAlign">{value.price}</p></h5>
-                        <hr />
-                        <p>{value.content}</p>
-
-                    </div>
-                </>
-            )
+                    </>
+                )
+            })
         })
-    })
-
     return (
         <>
             <div className="row">

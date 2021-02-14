@@ -1,5 +1,8 @@
 #footerContainer{
-    position:absolute;
-    z-index: 2;
+   margin-top: 50px;
     bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-align: center;
 }

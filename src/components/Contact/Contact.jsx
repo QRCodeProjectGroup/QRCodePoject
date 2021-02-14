@@ -9,10 +9,12 @@ function Contact(props){
 
         <>
         <div className="row">
-            <img id="mail" src={mail}></img>
+            <img data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="800" id="mail" src={mail}></img>
         </div>
         <div className="row">
-            <h3 id="iletisim">Bizimle İletişime Geçin :)</h3>
+            <h3 data-aos="flip-left" data-aos-duration="1000" id="iletisim">Bizimle İletişime Geçin :)</h3>
         </div>
         <div className="row">
             <div className="col-sm-3"></div>
