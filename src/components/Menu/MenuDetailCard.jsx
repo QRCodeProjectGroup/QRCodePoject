@@ -14,15 +14,16 @@ function MenuDetailCard(props) {
                 return (
                     <>
                         <div className="col-sm-3" key={detail.id} >
-                            <div class="card mt-5" id="cardColor">
+                            <div class="card mt-5" id="cardColor" data-aos="fade-right" data-aos-duration="800">
                                 <img src={detailPhotos[`${detail.id}`]} class="card-img-top" alt="..." />
 
                             </div>
                         </div>
                         <div className="col-sm-9 mt-5" >
-                            <h5>{detail.title} <p id="textAlign">{detail.fiyat}</p></h5>
+                            <h5 data-aos="fade-left" data-aos-duration="800">{detail.title} 
+                             <p id="textAlign" data-aos="fade-left" data-aos-duration="800">{detail.fiyat}</p></h5>
                             <hr />
-                            <p>{detail.detail}</p>
+                            <p data-aos="fade-left" data-aos-duration="800">{detail.detail}</p>
 
                         </div>
                     </>

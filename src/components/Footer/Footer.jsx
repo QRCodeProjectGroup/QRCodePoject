@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer(props){
     return(
-<div className="container-fluid bg-dark text white" id="footerContainer">
+<div className="container-fluid" id="footerContainer">
 
     <div className="row">
         <div className="col-sm-4">dfsdf</div>

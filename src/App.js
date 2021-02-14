@@ -5,6 +5,7 @@ import links from './data/links';
 import Navbar from './components/Navbar/Navbar';
 import 'aos/dist/aos.css'; 
 import AOS from 'aos';
+import Footer from './components/Footer/Footer'
 
 function App() {
   AOS.init();
@@ -29,6 +30,7 @@ function App() {
          
        </div>
      </div>
+<Footer/>
     </BrowserRouter>
   );
 }
