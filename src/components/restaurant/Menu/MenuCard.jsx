@@ -9,12 +9,12 @@ function MenuCard(props) {
     <>
       <div className="row">
         <div className="col">
-          <div class="card bg-dark text-white" id="cardBody" >
+          <div className="card bg-dark text-white" id="cardBody" >
 
-            <img src={photos[`${id}`]} id="image" class="card-img" alt="..." />
-            <div class="card-img-overlay" id="cardImg">
+            <img src={photos[`${id}`]} id="image" className="card-img" alt="..." />
+            <div className="card-img-overlay" id="cardImg">
               <div id="baslik">
-                <a class="card-title" href={`#${title.toLowerCase()}`} id="cardTitle">{props.title}</a>
+                <a className="card-title" href={`#${title.toLowerCase()}`} id="cardTitle">{props.title}</a>
               </div>
             </div>
           </div>

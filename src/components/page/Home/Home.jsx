@@ -2,7 +2,7 @@ import React from 'react';
 import Welcome from '../Welcome';
 import Restaurant from '../../restaurant/Restaurant'
 import Menu from '../../restaurant/Menu/Menu'
-import MenuDetailCard from '../../restaurant/Menu/MenuDetail';
+import MenuDetailCard from '../../restaurant/Menu/MenuDetailCard';
 import 'aos/dist/aos.css'; 
 import AOS from 'aos';
 import './Home.css'
@@ -18,7 +18,7 @@ function Home(props) {
             <Restaurant />
             <Menu />
 
-            <div class="container-fluid bg-light text-dark">
+            <div className="container-fluid bg-light text-dark">
 
                 <section id={params.toLowerCase()}>
                     <MenuDetailCard title={params.toLowerCase()}/>

@@ -25,8 +25,8 @@ function Menu(props) {
     <>
       <div className="row">
         <div className="col">
-          <div class="card" id="cardAlign">
-            <div class="card-body">
+          <div className="card" id="cardAlign">
+            <div className="card-body">
               <center>
                 <h1>MENÜ</h1>
               </center>
