@@ -1,8 +1,8 @@
 import React from 'react';
-import Welcome from '../Welcome/Welcome'
-import Restaurant from '../RestaurantCards/Restaurant'
-import Menu from '../Menu/Menu'
-import MenuDetailCard from '../Menu/MenuDetailCard'
+import Welcome from '../Welcome';
+import Restaurant from '../../restaurant/Restaurant'
+import Menu from '../../restaurant/Menu/Menu'
+import MenuDetailCard from '../../restaurant/Menu/MenuDetail';
 import 'aos/dist/aos.css'; 
 import AOS from 'aos';
 import './Home.css'

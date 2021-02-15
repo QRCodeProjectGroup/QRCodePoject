@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
-import { globalContext } from '../../data/context';
-import detailPhotos from '../../data/detailfoto.js';
+import { globalContext } from '../../../data/context';
+import detailPhotos from '../../../data/detailfoto.js';
 import './Menu.css';
 import MenuDetail from './MenuDetail';
-import Popup from '../PopUp/PopUp';
+import Popup from '../../page/PopUp/PopUp';
 
 function MenuDetailCard(props) {
     const [isOpen, setIsOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css';
-import data from '../../data/data.json';
+import data from '../../../data/data.json';
 import MenuCard from './MenuCard';
 
 function Menu(props) {

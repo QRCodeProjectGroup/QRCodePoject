@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css'
-import photos from '../../data/photos'
+import photos from '../../../data/photos'
 
 
 function MenuCard(props) {
