@@ -5,6 +5,8 @@ import cem from '../../../images/cem1.jpg';
 import './Contact.css'
 
 function Contact(props) {
+  const {qrcode} = props
+  console.log(qrcode)
   return (
 
     <>
@@ -60,7 +62,9 @@ function Contact(props) {
             </div>
           </div>
         </div>
-        <div className="col-sm-3"></div>
+        <div className="col-sm-3">
+          {qrcode} 
+        </div>
       </div>
     </>
   )
