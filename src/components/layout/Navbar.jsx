@@ -5,7 +5,6 @@ import image from '../../images/menüüsepeti.png'
 
 
 function Navbar(props) {
-  console.log(props)
 
   const linkItems = props.links.filter(item => item.isLink).map((item, index) =>
   (
@@ -17,7 +16,6 @@ function Navbar(props) {
 
   )
   )
-  console.log(linkItems[0])
   const linkItems2 = props.links.filter(item => item.isTrue).map((item2, index) =>
   (
     <li className="nav-link" key={index}>
