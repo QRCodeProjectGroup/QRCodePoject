@@ -7,27 +7,20 @@ function Contact(props) {
   const { data } = contactData
   const contactItem = data.map((item, index) => {
     return (
-      <div className="col-sm-3" key={index}>
-        <div className="card" id="contactCard">
-          <img src={item.photo} class="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">{item.area}</h5>
-            <p className="card-text">{item.university}</p>
-          </div>
-          <ul className="list-group list-group-flush" id="ulColor">
-            <li className="list-group-item">İsim:{item.name}</li>
-            <li className="list-group-item">Mail:{item.mail}</li>
-          </ul>
-          <div className="card-body">
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
-          </div>
-          <div className="overlay">
-            <input type="email" className="form-control" id="colFormLabel" placeholder="Mesaj..." />
-            <div className="text"><button className="btn btn-primary" id="siparisButon">Mesaj Gönder</button></div>
+     <>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src={item.photo} alt="Jane" />
+          <div class="container">
+            <h3>{item.name}</h3>
+            <h4>{item.area}</h4>
+            <p>{item.university}</p>
+            <p>Email:{item.mail}</p>
+            <p><button id="contactButton" class="button">Contact</button></p>
           </div>
         </div>
       </div>
+      </>
     )
   })
   return (
@@ -42,7 +35,9 @@ function Contact(props) {
         <h3 id="iletisim">Bizimle İletişime Geçin :)</h3>
       </div>
       <div className="row">
+        <div className="col-sm-4"></div>
         {contactItem}
+        <div className="col-sm-4"></div>
       </div>
     </>
   )

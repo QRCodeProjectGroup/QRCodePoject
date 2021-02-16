@@ -7,7 +7,7 @@ const contactData = {
             "area":"Front-End Developer",
             "university":"Çukurova Üniversitesi Bilgisayar Mühendisliği",
             "name":"Dilaray Çam",
-            "mail":"dilaray@gmail.com",
+            "mail":"dilaray.cam@gmail.com",
             "photo":dilos
         },
         {

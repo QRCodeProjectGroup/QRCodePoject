@@ -18,7 +18,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "reactjs-popup": "^2.0.4",
-    "slugify": "^1.4.6",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "slugify": "^1.4.6"
   }
 }
