@@ -10,32 +10,27 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import './Home.css'
 
-
 function Home(props) {
     AOS.init();
     const params = props.location.hash.slice(1)
     const { placeName } = useParams();
     const { place } = useContext(globalContext);
-
     return (
         <>
             {
                 place && place.filter(item => slugify(item.placeName, { lower: true }) === placeName)
-                    .map(() => {
+                    .map((item,index) => {
                         return (
-                            <>
+                            <div key={index}>
                                 <Welcome />
                                 <Restaurant />
                                 <Menu />
-
                                 <div className="container-fluid bg-light text-dark">
-
                                     <section id={params.toLowerCase()}>
                                         <MenuDetailCard title={params.toLowerCase()} />
                                     </section>
                                 </div>
-
-                            </>
+                            </div>
                         )
                     })
             }

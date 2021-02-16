@@ -1,10 +1,8 @@
 #about{
-   
-position: absolute;
-left: 30%;
-top: 0px;
-z-index: 0;
-
+    position: absolute;
+    left: 30%;
+    top: 0px;
+    z-index: 0;
 }
 #aboutRow{
     background-color: white;
@@ -12,10 +10,9 @@ z-index: 0;
 #back{
     width:1530px;
     position: absolute;
-left:0px;
-top: 0px;
-z-index: -1;
-
+    left:0px;
+    top: 0px;
+    z-index: -1;
 }
 #us{
     margin-top: 450px;
@@ -23,8 +20,7 @@ z-index: -1;
 }
 #paragraf{
     margin-top:50px;
-    margin-left: 50px;
-     
+    margin-left: 50px;  
 }
 #align{
     margin-left: 50px;

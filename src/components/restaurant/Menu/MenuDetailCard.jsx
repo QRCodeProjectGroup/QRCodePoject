@@ -1,7 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { globalContext } from '../../../data/context';
 import detailPhotos from '../../../data/detailfoto.js';
-import MenuDetail from './MenuDetail';
 import Comments from './Comments';
 import './Menu.css';
 
@@ -14,13 +13,10 @@ function MenuDetailCard(props) {
     details && details.filter(item => item.menuName.toLowerCase() === title).map(item => {
         cardItems = item.detail && item.detail.map((value, index) => {
             return (
-
                 <div className="row" key={index}>
-
                     <div className="col-sm-3">
                         <div className="card mt-5" id="cardColor">
                             <img src={detailPhotos[`${index}`]} className="card-img-top" alt="..." />
-
                         </div>
                     </div>
                     <div className="col-sm-9 mt-5" >
@@ -37,9 +33,10 @@ function MenuDetailCard(props) {
         <>
             <div className="row">
                 <h2 id="h">{title.charAt(0).toUpperCase() + title.slice(1)} Menü</h2>
-
             </div>
-            <MenuDetail cardItems={cardItems} />
+            <div className="container">
+                {cardItems}
+            </div>
         </>
     )
 }
