@@ -14,20 +14,24 @@ function Home(props) {
     AOS.init();
     const params = props.location.hash.slice(1)
     const { placeName } = useParams();
-    const { place } = useContext(globalContext);
+    const { place, details } = useContext(globalContext);
+    console.log(slugify(placeName))
     return (
         <>
             {
-                place && place.filter(item => slugify(item.placeName, { lower: true }) === placeName)
-                    .map((item,index) => {
+                place && place.filter(item => slugify(item.placeName, { lower: true }) === slugify(placeName))
+                    .map((item, index) => {
                         return (
                             <div key={index}>
                                 <Welcome />
-                                <Restaurant />
+                                <Restaurant place={item} />
                                 <Menu />
                                 <div className="container-fluid bg-light text-dark">
                                     <section id={params.toLowerCase()}>
-                                        <MenuDetailCard title={params.toLowerCase()} />
+                                        <MenuDetailCard
+                                            title={params.toLowerCase()}
+                                            details={details}
+                                        />
                                     </section>
                                 </div>
                             </div>

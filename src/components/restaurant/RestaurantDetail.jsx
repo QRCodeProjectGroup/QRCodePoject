@@ -1,7 +1,7 @@
 import React from 'react';
 
 function RestaurantDetail(props) {
-    const { restaurantData } = props
+    const { restaurantData } = props;
     return (
         <>
             {

@@ -1,25 +1,28 @@
 #footerContainer{
-   margin-top: 50px;
+    margin-top: 50px;
     bottom: 0;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.85);
     color: white;
     text-align: center;
 }
+
 #icon{
     width:36px;
     height:36px;
     margin-left: 10px;
 }
+
 #icon2{
     width:44px;
     height:44px;
     margin-left: 10px;
 }
+
 .form-label{
     text-align: left;
 }
+
 ul .a{
     list-style-type: none;
-    
 }

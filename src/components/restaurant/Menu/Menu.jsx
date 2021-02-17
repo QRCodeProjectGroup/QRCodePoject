@@ -13,9 +13,6 @@ function Menu(props) {
           <MenuCard
             id={item.id}
             title={item.title}
-            detail={item.detail}
-            fiyat={item.fiyat}
-
           />
         </div>
       )

@@ -7,28 +7,28 @@ import ok from '../../images/ok.png'
 
 function RestaurantData(props) {
 
-    const { item } = props
+    const { totalVisit, totalLike, point, orderSpeed } = props;
     const restaurantData = {
         "data": [
             {
                 "photo": users,
                 "title": "2 Haftadaki Ziyaret:",
-                "text": item.totalVisit
+                "text": totalVisit
             },
             {
                 "photo": like,
                 "title": "Toplam Beğeni:",
-                "text": item.totalLike
+                "text": totalLike
             },
             {
                 "photo": star,
                 "title": "Restoran Puanı:",
-                "text": item.point
+                "text": point
             },
             {
                 "photo": ok,
                 "title": "Ort. Sipariş Hızı",
-                "text": item.orderSpeed
+                "text": orderSpeed
             },
 
         ]

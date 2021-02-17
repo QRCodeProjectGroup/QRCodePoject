@@ -1,12 +1,11 @@
 import React, { useContext, useState } from 'react';
-import { globalContext } from '../../../data/context';
 import detailPhotos from '../../../data/detailfoto.js';
 import Comments from './Comments';
 import './Menu.css';
 
 function MenuDetailCard(props) {
     const { title } = props;
-    const { details } = useContext(globalContext)
+    const { details } = props;
 
     let cardItems;
 
