@@ -7,20 +7,18 @@ function Contact(props) {
   const { data } = contactData
   const contactItem = data.map((item, index) => {
     return (
-     <>
-      <div class="col-sm-4">
-        <div class="card">
+      <div className="col-sm-4" key={index}>
+        <div className="card">
           <img src={item.photo} alt="Jane" />
-          <div class="container">
+          <div className="container">
             <h3>{item.name}</h3>
             <h4>{item.area}</h4>
             <p>{item.university}</p>
             <p>Email:{item.mail}</p>
-            <p><button id="contactButton" class="button">Contact</button></p>
+            <p><button id="contactButton" className="button">Contact</button></p>
           </div>
         </div>
       </div>
-      </>
     )
   })
   return (

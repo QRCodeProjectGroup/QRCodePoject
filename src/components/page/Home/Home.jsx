@@ -1,4 +1,6 @@
 import React, { useContext } from 'react';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import { useParams } from 'react-router-dom';
 import slugify from 'slugify';
 import { globalContext } from '../../../data/context';
@@ -6,8 +8,6 @@ import Welcome from '../Welcome';
 import Restaurant from '../../restaurant/Restaurant'
 import Menu from '../../restaurant/Menu/Menu'
 import MenuDetailCard from '../../restaurant/Menu/MenuDetailCard';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
 import './Home.css'
 
 function Home(props) {
@@ -15,7 +15,6 @@ function Home(props) {
     const params = props.location.hash.slice(1)
     const { placeName } = useParams();
     const { place, details } = useContext(globalContext);
-    console.log(slugify(placeName))
     return (
         <>
             {

@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import detailPhotos from '../../../data/detailfoto.js';
-import Comments from './Comments';
+import Comments from '../Comments/Comments';
 import './Menu.css';
 
 function MenuDetailCard(props) {
@@ -22,7 +22,7 @@ function MenuDetailCard(props) {
                         <h5>{value.product} <p id="textAlign">{value.price}</p></h5>
                         <hr />
                         <p>{value.content}</p>
-                        <Comments />
+                        <Comments comments={value.comments} />
                     </div>
                 </div>
             )

@@ -4,8 +4,9 @@ import image from '../../images/kapak.jpg'
 import './Restaurant.css'
 
 function Restaurant(props) {
+
   const { place } = props
-  console.log(place)
+  
   return (
     <>
       <div className="row">

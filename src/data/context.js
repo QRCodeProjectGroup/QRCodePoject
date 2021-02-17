@@ -12,7 +12,6 @@ function GlobalProvider(props){
         let products;
         data.map(item=>(products=item))
         setProduct(products)
-        console.log(products)
     },[])
     return(
         <globalContext.Provider value={product}>

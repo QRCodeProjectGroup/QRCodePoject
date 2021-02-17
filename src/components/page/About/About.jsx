@@ -6,7 +6,7 @@ import './About.css'
 function About(props) {
     return (
         <>
-            <div classNamr="row">
+            <div className="row">
                 <div id="aboutRow">
                     <img id="back" src={arkaplan}></img>
                     <img id="about" data-aos="fade-down"
