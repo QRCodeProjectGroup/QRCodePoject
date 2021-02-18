@@ -11,18 +11,18 @@ function Footer(props) {
         <div className="container-fluid " id="footerContainer">
 
             <div className="row">
-                <div className="col-sm-4 mt-5">
-                    <h3>Nedir bu QR Menü?</h3>
-                    <img src={qrkod}></img>
-                    <p className="mt-3">QR menü yeni nesil dijital menüdür.Cep telefonunuzdan
+                <div className="col-sm-4 mt-4">
+                    <h3 id="footerTitle">Nedir bu QR Menü?</h3>
+                    <img id="footerImg" src={qrkod}></img>
+                    <p id="footer" className="mt-3">QR menü yeni nesil dijital menüdür.Cep telefonunuzdan
                     QR kod okutarak restoranınızın menüsünü,müşterilerinize gösterebilirsiniz.</p>
                 </div>
 
 
                 <div className="col-sm-4">
-                    <div className="row mt-5">
+                    <div className="row mt-4">
                         <div className="col">
-                            <h3>Menü Sepeti Destek</h3>
+                            <h3 id="footerTitle">Menü Sepeti Destek</h3>
                             <p className="mt-5"> QR menü ile ilgili bilgi almak istiyorsanız,yazın biz size dönelim!</p>
                         </div>
                     </div>
@@ -36,12 +36,12 @@ function Footer(props) {
                                 <label htmlFor="exampleFormControlTextarea1" className="form-label">Mesajınız:</label>
                                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <button type="button" className="btn btn-primary mb-5">Gönder</button>
+                            <button type="button" className="btn btn-primary mb-4">Gönder</button>
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-4 mt-5">
-                    <h3>İletişim</h3>
+                <div className="col-sm-4 mt-4">
+                    <h3 id="footerTitle">İletişim</h3>
                     <p className="mt-5">Sosyal Medyadan Bize Ulaşın</p>
                     <div className="row mt-3">
                         <div className="col">

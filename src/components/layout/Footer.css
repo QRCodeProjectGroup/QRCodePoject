@@ -26,3 +26,13 @@
 ul .a{
     list-style-type: none;
 }
+@media screen and (max-width:900px) {
+    #footerTitle{
+      font-size: 24px;
+      color:brown;
+    }
+    #footerImg{
+        width:128px;
+        height:128px;
+    }
+  }

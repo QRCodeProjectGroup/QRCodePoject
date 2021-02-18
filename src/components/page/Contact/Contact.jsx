@@ -8,7 +8,7 @@ function Contact(props) {
   const contactItem = data.map((item, index) => {
     return (
       <div className="col-sm-4" key={index}>
-        <div className="card">
+        <div className="card" id="contactCard">
           <img src={item.photo} alt="Jane" />
           <div className="container">
             <h3>{item.name}</h3>

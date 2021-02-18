@@ -25,7 +25,7 @@ function Menu(props) {
           <div className="card" id="cardAlign">
             <div className="card-body">
               <center>
-                <h1>MENÜ</h1>
+                <h1 id="menuTitle">MENÜ</h1>
               </center>
               <hr color="gray" />
               <div className="row">

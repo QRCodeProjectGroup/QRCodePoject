@@ -9,7 +9,7 @@ function RestaurantDetail(props) {
                     return (
                         <div className="card rounded-3" id="roundedCard" key={index} >
                             <div className="card-body">
-                                <img src={item.photo} alt="..."></img>
+                                <img src={item.photo} id="imgRestaurant" alt="..."></img>
                                 <h5 className="card-title" id="a">{item.title}</h5>
                                 <p className="card-text" id="a">{item.text}</p>
                             </div>

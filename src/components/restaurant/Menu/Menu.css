@@ -83,3 +83,8 @@ h2,h3{
 h4{
   font-family: 'Truculenta', sans-serif;
 }
+@media screen and (max-width:900px) {
+  #menuTitle{
+    font-size: 22px;
+  }
+}

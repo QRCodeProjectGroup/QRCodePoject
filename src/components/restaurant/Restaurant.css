@@ -11,12 +11,60 @@
 }
 #roundedCard{
   margin-left: 12px;
-  margin-top: 600px;
+  margin-top: 400px;
+  width:120px;
+  height:140px;
+  
 }
+#a{
+  font-size:18px;
+}
+#imgRestaurant{
+  width:32px;
+  height:32px;
+  margin-top:0px;
+  display: block;
+  margin:auto;
+}
+@media screen and (max-width:900px) {
+
+  #roundedCard{
+    width:120px;
+    height:140px;
+    margin-top: 20px;
+   
+  }
+  #a{
+    font-size:15px;
+    margin-top:5px;
+  }
+  #imgRestaurant{
+    width:32px;
+    height:32px;
+    margin-top:0px;
+    display: block;
+    margin:auto;
+  }
+  #kapakDiv{
+    position: relative;
+    margin: auto;
+  }
+  #titleText{
+    font-size: 16px;
+  }
+  #res{
+   
+    margin-right: 40px;
+  }
+ 
+  
+  }
 
 #res{
-  margin-top: 500px;
+  margin-top: 350px;
   margin-left:50px;
+  font-size: 14px;
+  
 }
 h5,p,a{
   font-family: 'Truculenta', sans-serif;
