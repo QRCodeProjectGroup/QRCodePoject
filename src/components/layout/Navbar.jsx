@@ -33,7 +33,7 @@ function Navbar(props) {
         <nav className="navbar navbar-expand-lg bg-transparent " id="navbarColor">
           <div className="container-fluid">
             <div id="topnav-centered">
-              <Link className="navbar-brand" to={linkItems[0]}>MENU SEPETİ</Link>
+              <Link className="navbar-brand" id="navTitle" to={linkItems[0]}>MENU SEPETİ</Link>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

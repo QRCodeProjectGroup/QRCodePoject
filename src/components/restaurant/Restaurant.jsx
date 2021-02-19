@@ -11,7 +11,6 @@ function Restaurant(props) {
     <>
       <div className="row">
         <div className="col-sm-6">
-          <div>
           <div className="card bg-dark text-white" id="res" >
             <img src={image} className="card-img" alt="..." />
             <div className="card-img-overlay">
@@ -21,7 +20,6 @@ function Restaurant(props) {
               </div>
             </div>
           </div>
-        </div>
         </div>
         <div className="col-sm-6" id="resCol">
           <RestaurantData 

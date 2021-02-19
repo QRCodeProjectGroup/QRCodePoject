@@ -1,5 +1,6 @@
 #mail{
-    width:1500px;
+    width: 100%;
+    height: auto;
    position: absolute;
   left: 0px;
   top: 0px;
@@ -8,14 +9,26 @@
 }
 #iletisim{
     color:gray;
-    margin-top:350px;
-    margin-left: 600px;
+    margin-top:250px;
+    margin-left: 450px;
+}
+#isim{
+    color: brown;
+}
+#roundedPhoto{
+    border-radius: 50%;
+    width:180px;
+    height:180px;
+    display: block;
+  margin: auto;
 }
 #ulColor{
     color:black;
 }
 #contactCard{
     margin-top:200px;
+    width:300px;
+    
 }
 #contactButton{
   display: block;

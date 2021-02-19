@@ -1,5 +1,5 @@
 import React from 'react';
-import hakkimizda from '../../../images/hakkimizda2.jpg';
+import hakkimizda from '../../../images/hakkimizda5.jpg';
 import arkaplan from '../../../images/arkaplanindex.jpg';
 import './About.css'
 
@@ -8,8 +8,8 @@ function About(props) {
         <>
             <div className="row">
                 <div id="aboutRow">
-                    <img id="back" src={arkaplan}></img>
-                    <img id="about" data-aos="fade-down"
+                   
+                    <img id="about"  data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="800" src={hakkimizda}></img>
                 </div>

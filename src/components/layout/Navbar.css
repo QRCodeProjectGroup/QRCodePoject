@@ -3,7 +3,7 @@ nav a{
     color:#cd853f;
     font-weight:bold;
      text-decoration:none !important;
-     font-size:24px;
+     font-size:18px;
      font-family: 'Truculenta', sans-serif;
 }
 .navbar-nav a:hover {
@@ -29,4 +29,10 @@ nav a{
 }
 .navbar-brand:hover{
   color: #cd853f;
+}
+@media screen and (max-width:900px) {
+  #navTitle{
+    font-size: 18px;
+  }
+ 
 }

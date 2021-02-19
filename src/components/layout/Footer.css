@@ -6,7 +6,15 @@
     color: white;
     text-align: center;
 }
+#footerTitle{
+    font-size: 24px;
+    color:brown;
 
+}
+#footerImg{
+    width:230px;
+    height:230px;
+}
 #icon{
     width:36px;
     height:36px;
@@ -35,4 +43,27 @@ ul .a{
         width:128px;
         height:128px;
     }
+    #footer{
+        font-size:16px;
+    }
+.a{
+    font-size:16px;
+}
+#a{
+    font-size:16px;
+}
+   
+  }
+
+  .a,#footer{
+    font-family: 'Truculenta', sans-serif;
+    font-size:14px;
+  }
+  #a{
+    font-family: 'Truculenta', sans-serif;
+    font-size:14px;
+  }
+  #message,#exampleFormControlInput1{
+    font-family: 'Truculenta', sans-serif;
+    font-size:14px;
   }

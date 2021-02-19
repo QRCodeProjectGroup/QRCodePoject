@@ -9,9 +9,9 @@ function Contact(props) {
     return (
       <div className="col-sm-4" key={index}>
         <div className="card" id="contactCard">
-          <img src={item.photo} alt="Jane" />
+          <img src={item.photo} id="roundedPhoto" alt="Jane" />
           <div className="container">
-            <h3>{item.name}</h3>
+            <h3 id="isim">{item.name}</h3>
             <h4>{item.area}</h4>
             <p>{item.university}</p>
             <p>Email:{item.mail}</p>
@@ -33,9 +33,9 @@ function Contact(props) {
         <h3 id="iletisim">Bizimle İletişime Geçin :)</h3>
       </div>
       <div className="row">
-        <div className="col-sm-4"></div>
+        <div className="col-sm-2"></div>
         {contactItem}
-        <div className="col-sm-4"></div>
+        <div className="col-sm-2"></div>
       </div>
     </>
   )
