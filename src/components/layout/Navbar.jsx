@@ -44,6 +44,7 @@ function Navbar(props) {
               </div>
               <div className="navbar-nav ml-auto pe-5" >
                 {linkItems2}
+               
               </div>
             </div>
           </div>

@@ -14,10 +14,11 @@ function Contact(props) {
             <h3 id="isim">{item.name}</h3>
             <h4>{item.area}</h4>
             <p>{item.university}</p>
-            <p>Email:{item.mail}</p>
+            <p>Email: {item.mail}<br/>
+            Github: <a href={item.github}>{item.username}</a></p>
             <p>
               <button id="contactButton" className="btn btn-light mb-4">
-                Contact
+               <a href={item.linkedin}>Linkedin</a>
               </button>
             </p>
           </div>
