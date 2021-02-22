@@ -7,22 +7,26 @@
 #aboutRow{
     background-color: white;
 }
-
+.aboutText{
+    font-size: 24px;
+}
 #us{
-    margin-top: 500px;
+    margin-top: 600px;
     margin-left: 80px;
 }
 #bgDark{
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.85);
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.85);
     color: white;
 }
 #paragraf{
     margin-top:30px;
     margin-left: 50px;  
+    font-size: 20px;
 }
 #align{
     margin-left: 50px;
+    font-size: 20px;
 }
 @media screen and (max-width:900px) {
 #us{
