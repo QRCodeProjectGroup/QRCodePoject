@@ -1,6 +1,5 @@
 import React from 'react';
 import hakkimizda from '../../../images/hakkimizda5.jpg';
-import arkaplan from '../../../images/arkaplanindex.jpg';
 import './About.css'
 
 function About(props) {

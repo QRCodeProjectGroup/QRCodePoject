@@ -9,7 +9,7 @@ function Restaurant(props) {
   
   return (
     <>
-      <div className="row">
+      <div className="row mt-5 pt-5">
         <div className="col-sm-6">
           <div className="card bg-dark text-white" id="res" >
             <img src={image} className="card-img" alt="..." />
@@ -21,7 +21,7 @@ function Restaurant(props) {
             </div>
           </div>
         </div>
-        <div className="col-sm-6" id="resCol">
+        <div className="col-sm-6 mt-5" id="resCol">
           <RestaurantData 
           totalVisit ={place.totalVisit}
           totalLike = {place.totalLike}

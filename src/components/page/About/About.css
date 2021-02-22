@@ -2,7 +2,6 @@
     width: 100%;
     height: auto;
     position: absolute;
-    left:0px;
     top: 0px;
 }
 #aboutRow{
@@ -10,8 +9,13 @@
 }
 
 #us{
-    margin-top: 450px;
+    margin-top: 500px;
     margin-left: 80px;
+}
+#bgDark{
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
 }
 #paragraf{
     margin-top:30px;

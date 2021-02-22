@@ -46,20 +46,27 @@ ul .a{
     #footer{
         font-size:16px;
     }
-.a{
+.footerLi{
     font-size:16px;
 }
-#a{
+#b{
     font-size:16px;
 }
    
   }
 
-  .a,#footer{
+  .footerLi{
     font-family: 'Truculenta', sans-serif;
     font-size:14px;
+    list-style-type: none !important;
+    margin-right: 45px;
   }
-  #a{
+  #footer{
+    font-family: 'Truculenta', sans-serif;
+    font-size:14px;
+    margin-bottom: 20px;
+  }
+  #b{
     font-family: 'Truculenta', sans-serif;
     font-size:14px;
   }

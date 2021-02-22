@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Comment from './Comment';
 import Popup from '../../page/PopUp/PopUp';
+import './Comments.css'
 
 
 function Comments(props) {
@@ -14,10 +15,12 @@ function Comments(props) {
     return (
         <>
             <input
+            className="commentButton"
                 type="button"
                 value="Yorumlar"
                 onClick={togglePopup}
             />
+            
             {isOpen && <Popup
                 content={<>
                     <Comment comments={comments} />

@@ -22,28 +22,30 @@
   font-size: 14px;
   
 }
+#resCol{
+padding-left: 50px;
+}
 h5,p,a{
   font-family: 'Truculenta', sans-serif;
   font-size: 15px;
 }
 #a{
-  font-size:18px;
+  font-size:14px;
+  margin-top:10px;
 }
 #imgRestaurant{
   width:32px;
   height:32px;
-  margin-top:0px;
   display: block;
   margin:auto;
 }
 @media screen and (max-width:900px) {
 
   #roundedCard{
-    width:95px;
+    width:120px;
     height:130px;
     margin-top: 20px;
-    margin-left:0px;
-   
+    margin-left:30px;
   }
   #a{
     font-size:12px;
@@ -58,10 +60,10 @@ h5,p,a{
   }
  
   #titleText{
-    font-size: 16px;
+    font-size: 14px;
   }
   #res{
-   margin-top:80px;
+   margin-top:10px;
     margin-right: 40px;
   }
   }

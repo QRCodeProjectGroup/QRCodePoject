@@ -53,11 +53,11 @@ function Footer(props) {
                     </div>
                     <div className="row">
                         <div className="col mt-4">
-                            <h3 id="footerTitle">Hizmetler</h3>
+                            <h3 id="footerTitle" className="text-center">Hizmetler</h3>
                             <ul>
-                                <li className="a">Restoran Ekle</li>
-                                <li className="a mt-3">Güvenlik</li>
-                                <li className="a mt-3">Gizlilik Politikası</li>
+                                <li className="footerLi mt-3">Restoran Ekle</li>
+                                <li className="footerLi mt-3">Güvenlik</li>
+                                <li className="footerLi mt-3">Gizlilik Politikası</li>
                             </ul>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ function Footer(props) {
 
             </div>
             <hr color="gray" />
-            <p className="pb-4" id="a">Copyright © 2021 MenuSepeti. All right reserved.</p>
+            <p className="pb-4" id="b">Copyright © 2021 MenuSepeti. All right reserved.</p>
         </div>
 
     )
