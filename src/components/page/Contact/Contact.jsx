@@ -7,7 +7,7 @@ function Contact(props) {
   const { data } = contactData;
   const contactItem = data.map((item, index) => {
     return (
-      <div className="col-sm-4 py-4" key={index}>
+      <div className="col-sm-3 py-4 ms-3" key={index}>
         <div className="card" id="contactCard">
           <img src={item.photo} id="roundedPhoto" alt="Jane" className="mt-4"/>
           <div className="container">
@@ -36,7 +36,7 @@ function Contact(props) {
           src={mail}
         ></img>
       </div>
-      <div className="container">
+      <div className="container-fluid mt-5">
         <div className="row">
           
             {contactItem}

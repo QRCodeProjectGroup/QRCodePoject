@@ -26,11 +26,17 @@
     color:black;
 }
 #contactCard{
-    margin-top:200px;
+    margin-top:450px;
     width:300px;
-    
+ margin-left: 20px;
 }
 #contactButton{
   display: block;
   margin: auto;
+}
+@media screen and (max-width:900px) {
+
+  #contactCard{
+    margin-top: 20px;
+  }
 }
