@@ -26,7 +26,7 @@ const contactData = {
             "photo":firat
         },
         {
-            "area":"Back-End Developer",
+            "area":"Full-Stack Web Developer ",
             "university":"Çukurova Üniversitesi Edebiyat Bölümü",
             "name":"Cem Nisan",
             "mail":"cnisan25@gmail.com",
