@@ -1,0 +1,83 @@
+{
+
+  "MENU SEPETİ": {"1": "MENU BASKET"},
+
+  "Menu Sepeti": {"1": "Menü Sepeti"},
+
+  "Nedir bu QR Menü?": {"1": "What is the QR Menu?"},
+
+  "Menü Sepeti Destek": {"1": "Menu Basket Support"},
+
+  "QR menü ile ilgili bilgi almak istiyorsanız,yazın biz size dönelim!": {"1": "If you want to more information please write us!"},
+
+  "QR kodu okutarak menüyü,müşterilerinize gösterebilirsiniz": {"1":
+  "You can show the menu to your customers by scanning the QR code"},
+
+  "Email adresiniz": {"1": "Email address"},
+
+  "Mesajınız": {"1": "Message"},
+
+  "Gönder": {"1": "Send"},
+
+  "İletişim": {"1": "Contact"},
+
+  "Sosyal Medyada Bize Ulaşın": {"1": "Contact with us on Social Media"},
+
+  "Hizmetler": {"1": "Services"},
+
+  "Restoran Ekle": {"1": "Add a Resturant"},
+
+  "Güvenlik": {"1": "Security"},
+
+  "Gizlilik Politikası": {"1": "Privacy Policy"},
+
+  "Telif Hakkı© 2021 Menü Sepeti, tüm hakları saklıdır": {"1": "Copyright © 2021 MenuSepeti. All rights reserved."},
+
+  "Anonim": {"1": "Unknown:"},
+
+  "Yorumlar": {"1": "Comments"},
+
+  "Biz Kimiz Ne Yapıyoruz": {"1": "Who we are and what we are doing?"},
+
+  "Kodluyoruz Adana Full Stack Development Bootcamp projesidir": {"1": "This project is a graduation project of Kodluyoruz Adana Full Stack Development Bootcamp"},
+
+  "Şu anda içinde bulunduğumuz pandemi sürecinde restoranların kullanabileceği bir OR kod dijital menü oluşturmak ve teması azaltmayı amaçlıyoruz": {"1": "We aim to create an OR code digital menu that restaurants can use during the pandemic process we are currently in and to reduce the physcial contact."},
+
+  "Projemiz 2 ana kısımdan oluşmaktadır": {"1": "Our project consists of two main parts."},
+
+  "NodeJS ile api oluşturmak": {"1": "1 - Create an API via NodeJS."},
+
+  "React kütüphanesi ile önyüz oluşturmak": {"1": "2 - Create an UI page via React Library."},
+
+  "NodeJsde neler yaptık": {"1": "What we have done with NodeJS?"},
+
+  "MongoDB ye kayıt olup amazonun bulut sunucusunda database oluşturduk": {"1":"We registered to MongoDB and created a database on Amazon's cloud server."},
+
+  "Express ile uygulamamızı oluşturduk ne mongoose ile bulut sunucudaki veritabanımıza bağlandık": {"1": "We created our application with Express and connected to our database on the cloud server with Mongoose."},
+
+  "Restoranlar için User modeli oluşturduk kullanıcı şifrelerini bcrypt kütüphanesi ile veritabanımıza şifreledik Bu sayede Json Web Token ile rahatça oturum kontrolü sağlayabildik": {"1": "We created a User model for restaurants, encrypted the user passwords to our database with the bcrypt library. Thus, we could easily provide session control with Json Web Token."},
+
+  "Son olarak yayına hazır olmadan önce oluşturduğumuz yapılara Unit test yazdık Yayına alırken heroku ile travisCI kullanıp sürekli entegrasyon işlemleri yaptık": {"1": "Lastly, we wrote a Unit test on the structures we created before they were ready for publication."},
+
+  "React kısmında neler yaptık": {"1": "What have we done as a part of React?"},
+
+  "Bootstrap Html ve CSS kullanarak tasarımın iskeletini çıkardık": {"1": "We skeletonized the design using Bootstrap Html and CSS"},
+
+  "Componentlerimizi parçalayarak modüler bir sistem halinde,tüm componentlerimizi oluşturduk": {"1": "We created all our components as a modular system by breaking down our components."},
+
+  "React-router-dom kullanarak navbarımızı işlevsel hale getirdik": {"1": "We made our navbar functional using React-router-dom"},
+
+  "Bootstrap card kullanarak menümüzü oluşturduk": {"1": "We created our menu using Bootstrap card."},
+
+  "Restoran menümüzü oluşturduktan sonra, menünün detaylarını ayrı bir sayfada oluşturduk": {"1": "After creating our restaurant menu, we created the details of the menu on a separate page."},
+
+  "Tüm detayları bir json dosyasında tuttuk ve map fonksiyonu ile sayfamıza yazdık":
+  {"1": "We kept all the details in a json file and wrote it to our page with the map function."},
+
+  "React ın bize sağladığı qrcode react adlı kütüphaneyi kullanarak restorana özel QR kod oluşturan bir component oluşturduk": {"1": "We have created a component that creates restaurant-specific QR code using the library called qrcode.react provided by React."},
+
+  "Her yeni restoran veri tabanına kayıt yaptığında dinamik şekilde mekanın ismine göre qrcode u oluşturduk": {"1": "Each time a new restaurant is registered to the database, we dynamically created the qrcode according to the name of the place."},
+
+  "Api çekerken context kullandık useReducer ile belirli post update delete methodlarını uyguladık": {"1": "We used context while pulling api. We applied certain post, update, delete methods with useReducer."}
+
+}

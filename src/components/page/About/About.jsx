@@ -1,8 +1,15 @@
 import React from "react";
 import hakkimizda from "../../../images/hakkimizda5.jpg";
 import "./About.css";
+import { useTranslation } from 'react-i18next';
 
 function About(props) {
+
+  const { t, i18n } = useTranslation();
+    function handleClick(lang) {
+    i18n.changeLanguage(lang);
+    }
+
   return (
     <>
       <div>
@@ -19,66 +26,48 @@ function About(props) {
       <div className="container-fluid">
         <div className="row"  id="bgDark">
           <div>
-            <h1 id="us">Biz Kimiz?Ne Yapıyoruz?</h1>
+            <h1 id="us">{t('Biz Kimiz Ne Yapıyoruz.1')}</h1>
             <p id="paragraf">
-              Bu site Kodluyoruz Adana Full Stack Development Bootcamp bitirme
-              projesidir.
+              {t('Kodluyoruz Adana Full Stack Development Bootcamp projesidir.1')}
               <br />
-              Şuanda içinde bulunduğumuz pandemi sürecinde restoranların
-              kullanabileceği bir OR kod dijital menü oluşturmak ve teması
-              azaltmayı amaçlıyoruz.
+              {t('Şu anda içinde bulunduğumuz pandemi sürecinde restoranların kullanabileceği bir OR kod dijital menü oluşturmak ve teması azaltmayı amaçlıyoruz.1')}
               <br />
-              Projemiz 2 ana kısımdan oluşmaktadır:
+              {t('Projemiz 2 ana kısımdan oluşmaktadır.1')}
               <br />
-              1 - NodeJS ile api oluşturmak.
-              <br />2 - React kütüphanesi ile önyüz oluşturmak.
+              {t('NodeJS ile api oluşturmak.1')}
+              <br />{t('React kütüphanesi ile önyüz oluşturmak.1')}
             </p>
-            <h4 id="align">NodeJs'de neler yaptık?</h4>
+            <h4 id="align">{t('NodeJsde neler yaptık.1')}</h4>
             <p id="align">
-              + MongoDB'ye kayıt olup amazonun bulut sunucusunda database'mizi
-              oluşturduk.
+              {t('MongoDB ye kayıt olup amazonun bulut sunucusunda database oluşturduk.1')}
               <br />
-              + Express ile uygulamamızı oluşturduk ne mongoose ile bulut
-              sunucudaki veritabanımıza bağlandık.
+              {t('Express ile uygulamamızı oluşturduk ne mongoose ile bulut sunucudaki veritabanımıza bağlandık.1')}
               <br />
-              + Restoranlar için User modeli oluşturduk,kullanıcı şifrelerini
-              bcrypt kütüphanesi ile veritabanımıza şifreledik.Bu sayede Json
-              Web Token ile rahatça oturum kontrolü sağlayabildik.
+              {t('Restoranlar için User modeli oluşturduk kullanıcı şifrelerini bcrypt kütüphanesi ile veritabanımıza şifreledik Bu sayede Json Web Token ile rahatça oturum kontrolü sağlayabildik.1')}
               <br />
-              + Menü modeli oluşturduk,burada modeli 2 parçaya böldük.Örneğin
-              yemek bölümü ve yemek bölümünün detayı adlı 2 modelimiz olmuş
-              oldu.Bunları aggregate ile gruplama işlemi yaparak oluşturduk.
+              {t('Menü modeli oluşturduk burada modeli 2 parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı 2 modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk.1')}
               <br />
-              Son olarak yayına hazır olmadan önce oluşturduğumuz yapılara Unit
-              test yazdık.Yayına alırken heroku ile travisCI kullanıp sürekli
-              entegrasyon işlemleri yaptık.
+              {t('Son olarak yayına hazır olmadan önce oluşturduğumuz yapılara Unit test yazdık Yayına alırken heroku ile travisCI kullanıp sürekli entegrasyon işlemleri yaptık.1')}
             </p>
-            <h4 id="align">React kısmında neler yaptık?</h4>
+            <h4 id="align">{t('React kısmında neler yaptık.1')}</h4>
             <p id="align">
-              + Bootstrap,Html ve CSS kullanarak tasarımın iskeletini çıkardık.
+              {t('Bootstrap Html ve CSS kullanarak tasarımın iskeletini çıkardık.1')}
               <br />
-              + Componentlerimizi parçalayarak modüler bir sistem halinde,tüm
-              componentlerimizi oluşturduk.
+              {t('Componentlerimizi parçalayarak modüler bir sistem halinde,tüm componentlerimizi oluşturduk.1')}
               <br />
-              + React-router-dom kullanarak navbarımızı işlevsel hale getirdik.
+              {t('React-router-dom kullanarak navbarımızı işlevsel hale getirdik.1')}
               <br />
-              + Bootstrap card kullanarak menümüzü oluşturduk.
+              {t('Bootstrap card kullanarak menümüzü oluşturduk.1')}
               <br />
-              + Restoran menümüzü oluşturduktan sonra, menünün detaylarını ayrı
-              bir sayfada oluşturduk.
+              {t('Restoran menümüzü oluşturduktan sonra, menünün detaylarını ayrı bir sayfada oluşturduk.1')}
               <br />
-              + Tüm detayları bir json dosyasında tuttuk ve map fonksiyonu ile
-              sayfamıza yazdık.
+              {t('Tüm detayları bir json dosyasında tuttuk ve map fonksiyonu ile sayfamıza yazdık.1')}
               <br />
-              + React'ın bize sağladığı "qrcode.react" adlı kütüphaneyi
-              kullanarak her restorana özel QR kod oluşturan bir component
-              oluşturduk.
+              {t('React ın bize sağladığı qrcode react adlı kütüphaneyi kullanarak restorana özel QR kod oluşturan bir component oluşturduk.1')}
               <br />
-              + Her yeni restoran veri tabanına kayıt yaptığında dinamik şekilde
-              mekanın ismine göre qrcode'u oluşturduk.
+              {t('Her yeni restoran veri tabanına kayıt yaptığında dinamik şekilde mekanın ismine göre qrcode u oluşturduk.1')}
               <br />
-              + Api çekerken context kullandık.useReducer ile belirli
-              post,update,delete methodlarını uyguladık.
+              {t('Api çekerken context kullandık useReducer ile belirli post update delete methodlarını uyguladık.1')}
             </p>
           </div>
         </div>

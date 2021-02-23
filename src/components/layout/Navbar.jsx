@@ -3,8 +3,15 @@ import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import image from '../../images/menüüsepeti.png'
 
+import { useTranslation } from 'react-i18next';
+
 
 function Navbar(props) {
+  
+  const { t, i18n } = useTranslation();
+  function handleClick(lang) {
+    i18n.changeLanguage(lang);
+  }
 
   const linkItems = props.links.filter(item => item.isLink).map((item, index) =>
   (
@@ -33,7 +40,7 @@ function Navbar(props) {
         <nav className="navbar navbar-expand-lg bg-transparent " id="navbarColor">
           <div className="container-fluid">
             <div id="topnav-centered">
-              <Link className="navbar-brand" id="navTitle" to={linkItems[0]}>MENU SEPETİ</Link>
+              <Link className="navbar-brand" id="navTitle" to={linkItems[0]}>{t('MENU SEPETİ.1')}</Link>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -44,7 +51,6 @@ function Navbar(props) {
               </div>
               <div className="navbar-nav ml-auto pe-5" >
                 {linkItems2}
-               
               </div>
             </div>
           </div>

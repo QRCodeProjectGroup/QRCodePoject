@@ -2,9 +2,9 @@
 nav a{
     color:#cd853f;
     font-weight:bold;
-     text-decoration:none !important;
-     font-size:18px;
-     font-family: 'Truculenta', sans-serif;
+    text-decoration:none !important;
+    font-size:18px;
+    font-family: 'Truculenta', sans-serif;
 }
 .navbar-nav a:hover {
 
@@ -25,7 +25,7 @@ nav a{
 
 .navbar-brand{
   font-size: 36px;
- color:#cd853f;
+  color:#cd853f;
 }
 .navbar-brand:hover{
   color: #cd853f;
@@ -34,5 +34,4 @@ nav a{
   #navTitle{
     font-size: 18px;
   }
- 
 }

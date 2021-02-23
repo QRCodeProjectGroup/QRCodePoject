@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
+import './i18next';
+
 import reportWebVitals from './reportWebVitals';
 import { GlobalProvider } from './data/context';
 
 ReactDOM.render(
-  <GlobalProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </GlobalProvider>,
+  <Suspense fallback={(<div>Loading...</div>)}>
+    <GlobalProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </GlobalProvider>
+    </Suspense>,
   document.getElementById('root')
 );
 
