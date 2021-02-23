@@ -1,5 +1,10 @@
 {
 
+  "Hakkımızda": {"1":"About"},
+
+  "İletişim":{"1":"Contact"},
+
+
   "MENU SEPETİ": {"1": "MENU BASKET"},
 
   "Menu Sepeti": {"1": "Menü Sepeti"},
@@ -18,8 +23,6 @@
   "Mesajınız": {"1": "Message"},
 
   "Gönder": {"1": "Send"},
-
-  "İletişim": {"1": "Contact"},
 
   "Sosyal Medyada Bize Ulaşın": {"1": "Contact with us on Social Media"},
 
