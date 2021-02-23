@@ -17,7 +17,7 @@ function Navbar(props) {
   (
     <li className="nav-link" key={index}>
       <Link to={item.link} className="nav-link">
-        {item.title}
+        {t(`${item.title}.1`)}
       </Link>
     </li>
 
@@ -27,7 +27,7 @@ function Navbar(props) {
   (
     <li className="nav-link" key={index}>
       <Link to={item2.link} className="nav-link">
-        {item2.title1}
+        {t(`${item2.title1}.1`)}
       </Link>
     </li>
 
