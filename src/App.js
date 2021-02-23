@@ -7,11 +7,7 @@ import Footer from './components/layout/Footer';
 import { useTranslation } from 'react-i18next';
 
 function App() {
-  const { t, i18n } = useTranslation();
-  function handleClick(lang) {
-    i18n.changeLanguage(lang);
-  }
-
+  
   const routeMaps = links.map((item, index) => (
     <Route key={index} exact={item.isExact} path={item.link} component={item.component} />
   ))
@@ -20,14 +16,7 @@ function App() {
     <BrowserRouter>
         <Navbar links={links} />
         <div className="container-fluid">
-          <nav style={{ width:'100%', padding:'2rem 0',backgroundColor:'gray'}}>
-            <button onClick={() =>handleClick ('en')}>
-            EN
-            </button>
-            <button onClick={() =>handleClick ('tr')}>
-            TR
-            </button>
-          </nav>
+         
           <div className="row">
             <Switch>
               {routeMaps}

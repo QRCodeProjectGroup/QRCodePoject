@@ -17,7 +17,7 @@ function Navbar(props) {
   (
     <li className="nav-link" key={index}>
       <Link to={item.link} className="nav-link">
-        {t(`${item.title}.1`)}
+      {t(`${item.title}.1`)}
       </Link>
     </li>
 
@@ -27,7 +27,7 @@ function Navbar(props) {
   (
     <li className="nav-link" key={index}>
       <Link to={item2.link} className="nav-link">
-        {t(`${item2.title1}.1`)}
+      {t(`${item2.title1}.1`)}
       </Link>
     </li>
 
@@ -51,6 +51,14 @@ function Navbar(props) {
               </div>
               <div className="navbar-nav ml-auto pe-5" >
                 {linkItems2}
+                <nav id="navEN">
+                <button class="btn btn-success btn-sm" id="buton1" onClick={() =>handleClick ('en')}>
+            EN
+            </button>
+            <button class="btn btn-success btn-sm" id="buton2" onClick={() =>handleClick ('tr')}>
+            TR
+            </button>
+            </nav>
               </div>
             </div>
           </div>

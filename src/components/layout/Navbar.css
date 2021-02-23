@@ -22,7 +22,12 @@ nav a{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+#navEN{
+  margin-top:15px;
+}
+#buton1{
+margin-right: 5px;
+}
 .navbar-brand{
   font-size: 36px;
   color:#cd853f;
