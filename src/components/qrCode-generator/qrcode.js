@@ -16,7 +16,7 @@ function QrCode(props) {
                     </div>
                     <div className="qrcode d-flex justify-content-center">
                         <QRCode
-                            value={`localhost:3000/restaurant/${slugify(item.placeName, { lower: true })}`}
+                            value={`https://kind-snyder-d20e5a.netlify.app/restaurant/${slugify(item.placeName, { lower: true })}`}
                         />
                     </div>
                     <div className="button d-flex justify-content-center">
