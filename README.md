@@ -2,7 +2,7 @@
 ## About This Project
 
 	In this project we aim to create an QR code digital menu that restaurants can use during
-  the pandemic process and reduce the close contact.
+        the pandemic process and reduce the close contact.
     
 
 ## Built With
