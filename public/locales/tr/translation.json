@@ -80,7 +80,9 @@
 
   "Her yeni restoran veri tabanına kayıt yaptığında dinamik şekilde mekanın ismine göre qrcode u oluşturduk": {"1": "Her yeni restoran veri tabanına kayıt yaptığında dinamik şekilde mekanın ismine göre qrcode u oluşturduk,"},
 
-  "Api çekerken context kullandık useReducer ile belirli post update delete methodlarını uyguladık": {"1": "Api çekerken context kullandık.useReducer ile belirli post update delete methodlarını uyguladık."}
+  "Api çekerken context kullandık useReducer ile belirli post update delete methodlarını uyguladık": {"1": "Api çekerken context kullandık.useReducer ile belirli post update delete methodlarını uyguladık."},
+
+  "Menü modeli oluşturduk burada modeli iki parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı iki modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk": {"1": "Menü modeli oluşturduk burada modeli iki parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı 2 modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk"}
   
 }
 

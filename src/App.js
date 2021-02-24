@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import links from './data/links';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
-import { useTranslation } from 'react-i18next';
 
 function App() {
   
@@ -16,7 +15,6 @@ function App() {
     <BrowserRouter>
         <Navbar links={links} />
         <div className="container-fluid">
-         
           <div className="row">
             <Switch>
               {routeMaps}

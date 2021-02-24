@@ -45,7 +45,7 @@ function About(props) {
               <br />
               {t('Restoranlar için User modeli oluşturduk kullanıcı şifrelerini bcrypt kütüphanesi ile veritabanımıza şifreledik Bu sayede Json Web Token ile rahatça oturum kontrolü sağlayabildik.1')}
               <br />
-              {t('Menü modeli oluşturduk burada modeli 2 parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı 2 modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk.1')}
+              {t('Menü modeli oluşturduk burada modeli iki parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı iki modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk.1')}
               <br />
               {t('Son olarak yayına hazır olmadan önce oluşturduğumuz yapılara Unit test yazdık Yayına alırken heroku ile travisCI kullanıp sürekli entegrasyon işlemleri yaptık.1')}
             </p>
