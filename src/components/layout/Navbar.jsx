@@ -40,7 +40,7 @@ function Navbar(props) {
         <nav className="navbar navbar-expand-lg bg-transparent " id="navbarColor">
           <div className="container-fluid">
             <div id="topnav-centered">
-              <Link className="navbar-brand" id="navTitle" to={linkItems[0]}>{t('MENU SEPETİ.1')}</Link>
+              <Link className="navbar-brand" id="navTitle" to="/">{t('MENU SEPETİ.1')}</Link>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -52,10 +52,10 @@ function Navbar(props) {
               <div className="navbar-nav ml-auto pe-5" >
                 {linkItems2}
                 <nav id="navEN">
-                <button class="btn btn-success btn-sm" id="buton1" onClick={() =>handleClick ('en')}>
+                <button className="btn btn-dark btn-sm" id="buton1" onClick={() =>handleClick ('en')}>
             EN
             </button>
-            <button class="btn btn-success btn-sm" id="buton2" onClick={() =>handleClick ('tr')}>
+            <button className="btn btn-dark btn-sm" id="buton2" onClick={() =>handleClick ('tr')}>
             TR
             </button>
             </nav>

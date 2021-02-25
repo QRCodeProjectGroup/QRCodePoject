@@ -6,6 +6,7 @@ function RestaurantDetail(props) {
         <>
             {
                 restaurantData.data.map((item, index) => {
+                    console.log(item)
                     return (
                         <div className="card rounded-3" id="roundedCard" key={index} >
                             <div className="card-body">
