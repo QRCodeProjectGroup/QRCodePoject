@@ -1,9 +1,10 @@
-import Home from '../components/page/Home/Home';
-import About from '../components/page/About/About';
-import qrcode from '../components/qrCode-generator/qrcode';
-import Contact from '../components/page/Contact/Contact';
-import NotFound from  '../components/page/NotFound';
+import React from 'react';
 
+const Home = React.lazy(() => import('../components/page/Home/Home'));
+const About = React.lazy(() => import('../components/page/About/About'));
+const qrcode = React.lazy(() => import('../components/qrCode-generator/qrcode'));
+const Contact = React.lazy(() => import('../components/page/Contact/Contact'));
+const NotFound = React.lazy(() => import('../components/page/NotFound'));
 
 const links=[
     {link:"/",title:"Home",component:qrcode,isExact:true,isLink:false},

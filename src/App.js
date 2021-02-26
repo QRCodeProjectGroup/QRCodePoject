@@ -6,25 +6,25 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
 function App() {
-  
+
   const routeMaps = links.map((item, index) => (
     <Route key={index} exact={item.isExact} path={item.link} component={item.component} />
   ))
 
   return (
     <BrowserRouter>
-        <Navbar links={links} />
-        <div className="container-fluid">
-          <div className="row">
-            <Switch>
-              {routeMaps}
-              <Route path="*">
-                <Redirect to="/404" />
-              </Route>
-            </Switch>
-          </div>
+      <Navbar links={links} />
+      <div className="container-fluid">
+        <div className="row">
+          <Switch>
+            {routeMaps}
+            <Route path="*">
+              <Redirect to="/404" />
+            </Route>
+          </Switch>
         </div>
-        <Footer />
+      </div>
+      <Footer />
     </BrowserRouter>
   );
 }
