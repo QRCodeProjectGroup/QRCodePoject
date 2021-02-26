@@ -4,7 +4,8 @@ import photos from '../../../data/photos'
 
 
 function MenuCard(props) {
-  const {id,title} = props
+  const {id,title} = props  
+
   return (
     <>
       <div className="row">

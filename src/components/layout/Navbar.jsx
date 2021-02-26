@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
-import image from '../../images/menüüsepeti.png'
 
 import { useTranslation } from 'react-i18next';
 
@@ -40,7 +39,7 @@ function Navbar(props) {
         <nav className="navbar navbar-expand-lg bg-transparent " id="navbarColor">
           <div className="container-fluid">
             <div id="topnav-centered">
-              <Link className="navbar-brand" id="navTitle" to="/">{t('MENU SEPETİ.1')}</Link>
+              <Link className="navbar-brand" id="navTitle" to="/">MENÜ SEPETİ</Link>
             </div>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

@@ -12,22 +12,22 @@ function RestaurantData(props) {
         "data": [
             {
                 "photo": users,
-                "title": "2 Haftadaki Ziyaret:",
+                "title": "2 Haftadaki Ziyaret",
                 "text": totalVisit
             },
             {
                 "photo": like,
-                "title": "Toplam Beğeni:",
+                "title": "Toplam Beğeni",
                 "text": totalLike
             },
             {
                 "photo": star,
-                "title": "Restoran Puanı:",
+                "title": "Restoran Puanı",
                 "text": point
             },
             {
                 "photo": ok,
-                "title": "Ort. Sipariş Hızı",
+                "title": "Ort Sipariş Hızı",
                 "text": orderSpeed
             },
 

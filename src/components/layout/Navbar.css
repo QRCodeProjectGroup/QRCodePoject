@@ -40,3 +40,6 @@ margin-right: 5px;
     font-size: 18px;
   }
 }
+.navbar-toggler-icon{
+    background-color: #888 !important; 
+}

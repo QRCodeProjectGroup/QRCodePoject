@@ -2,9 +2,13 @@ import React from 'react';
 import './Menu.css';
 import data from '../../../data/data.json';
 import MenuCard from './MenuCard';
+import { useTranslation } from 'react-i18next';
 
 function Menu(props) {
-
+  const { t, i18n } = useTranslation();
+  function handleClick(lang) {
+    i18n.changeLanguage(lang);
+  }
   const foodItems = data.foods.filter(
     item => item.isActive).map(
       (item) => (
@@ -12,7 +16,7 @@ function Menu(props) {
         <div className="col-sm-3" key={item.id} >
           <MenuCard
             id={item.id}
-            title={item.title}
+            title={t(`${item.title}.1`)}
           />
         </div>
       )

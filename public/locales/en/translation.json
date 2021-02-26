@@ -4,13 +4,9 @@
 
   "İletişim":{"1":"Contact"},
 
-  "MENU SEPETİ": {"1": "MENU BASKET"},
-
-  "Menu Sepeti": {"1": "Menü Sepeti"},
-
   "Nedir bu QR Menü?": {"1": "What is the QR Menu?"},
 
-  "Menü Sepeti Destek": {"1": "Menu Basket Support"},
+  "Menü Sepeti Destek": {"1": "Menü Sepeti Support"},
 
   "QR menü ile ilgili bilgi almak istiyorsanız,yazın biz size dönelim!": {"1": "If you want to more information please write us!"},
 
@@ -82,7 +78,32 @@
 
   "Api çekerken context kullandık useReducer ile belirli post update delete methodlarını uyguladık": {"1": "We used context while pulling api. We applied certain post, update, delete methods with useReducer."},
 
-  "Menü modeli oluşturduk burada modeli iki parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı iki modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk": {"1": "We created a menu model and divided the model into two parts.For example, we had two models named food section and detail of the food section.We created them by grouping with aggregate."}
+  "Menü modeli oluşturduk burada modeli iki parçaya böldük Örneğin yemek bölümü ve yemek bölümünün detayı adlı iki modelimiz olmuş oldu Bunları aggregate ile gruplama işlemi yaparak oluşturduk": {"1": "We created a menu model and divided the model into two parts.For example, we had two models named food section and detail of the food section.We created them by grouping with aggregate."},
+
+  "2 Haftadaki Ziyaret": {"1": "Visit in 2 Weeks"},
+
+  "Toplam Beğeni": {"1": "Total Likes"},
+
+  "Restoran Puanı": {"1": "Restaurant Score"},
+
+  "Ort Sipariş Hızı": {"1": "Avg. Order Speed"},
+
+  "MENÜ": {"1": "MENU"},
+
+  "KAHVALTI": {"1": "BREAKFAST"},
+
+  "BURGER": {"1": "BURGER"},
+
+  "MAKARNA": {"1": "PASTA"},
+
+  "STEAK": {"1": "STEAK"},
+
+  "ÇORBALAR": {"1": "SOUPS"},
+
+  "SALATALAR": {"1": "SALADS"},
+
+  "TATLILAR": {"1": "DESSERTS"},
   
+  "İÇECEKLER": {"1": "BEVERAGES"}   
 
 }

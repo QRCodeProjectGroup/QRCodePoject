@@ -31,7 +31,7 @@ function MenuDetailCard(props) {
     return (
         <>
             <div className="row">
-                <h2 id="h">{title.charAt(0).toUpperCase() + title.slice(1)} Menü</h2>
+                <h2 id="h">{title.charAt(0).toUpperCase() + title.slice(1)}</h2>
             </div>
             <div className="container">
                 {cardItems}
