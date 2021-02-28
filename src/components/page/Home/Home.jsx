@@ -21,7 +21,7 @@ function Home(props) {
                 place && place.filter(item => slugify(item.placeName, { lower: true }) === slugify(placeName))
                     .map((item, index) => {
                         return (
-                            <div key={index}>
+                            <div key={index}>                                
                                 <Welcome />
                                 <Restaurant place={item} />
                                 <Menu />
