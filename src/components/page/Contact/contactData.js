@@ -6,7 +6,7 @@ import emre from '../../../images/emree.jpg';
 const contactData = {
     "data":[
         {
-            "area":"Front-End Developer",
+            "area":"Full Stack Web Developer",
             "university":"Çukurova Üniversitesi Bilgisayar Mühendisliği",
             "name":"Dilaray Çam",
             "mail":"dilaray.cam@gmail.com",
@@ -36,7 +36,7 @@ const contactData = {
             "photo":cem
         },
         {
-            "area":"Back-End Developer",
+            "area":"Full Stack Web Developer",
             "university":"Çukurova Üniversitesi Bilgisayar Mühendisliği",
             "name":"Emre Ulusoy",
             "mail":"ulsyemr@gmail.com",

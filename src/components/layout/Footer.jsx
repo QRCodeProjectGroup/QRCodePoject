@@ -72,7 +72,7 @@ function Footer(props) {
 
             </div>
             <hr color="gray" />
-            <p className="pb-4" id="b">{t('Telif Hakkı© 2021 Menü Sepeti, tüm hakları saklıdır.1')}</p>
+            <p className="pb-4 mb-0" id="b">{t('Telif Hakkı© 2021 Menü Sepeti, tüm hakları saklıdır.1')}</p>
         </div>
 
     )

@@ -7,11 +7,11 @@ function Contact(props) {
   const { data } = contactData;
   const contactItem = data.map((item, index) => {
     return (
-      <div className="col-sm-3 py-4 ms-3" key={index}>
+      <div className="col-sm-3 pt-5" key={index}>
         <div className="card" id="contactCard">
           <img src={item.photo} id="roundedPhoto" alt="Jane" className="mt-4"/>
-          <div className="container">
-            <h3 id="isim">{item.name}</h3>
+          <div className="container text-center text-white">
+            <h3 className="mt-4" id="isim">{item.name}</h3>
             <h4>{item.area}</h4>
             <p>{item.university}</p>
             <p>Email: {item.mail}<br/>

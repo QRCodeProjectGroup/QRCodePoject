@@ -12,9 +12,9 @@ function About(props) {
 
   return (
     <>
-      <div>
-        <div id="aboutRow">
-          <img
+      <div className="pl-0 ">
+        <div id="aboutRow py-5">
+          <img            
             id="about"
             data-aos="fade-down"
             data-aos-easing="linear"

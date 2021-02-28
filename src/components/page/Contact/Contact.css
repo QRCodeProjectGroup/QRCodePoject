@@ -13,7 +13,7 @@
     margin-left: 450px;
 }
 #isim{
-    color: brown;
+    color: gray;
 }
 #roundedPhoto{
     border-radius: 50%;
@@ -27,8 +27,9 @@
 }
 #contactCard{
     margin-top:450px;
-    width:300px;
- margin-left: 20px;
+    width:300px;    
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.8);
 }
 #contactButton{
   display: block;
